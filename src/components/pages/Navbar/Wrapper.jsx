@@ -9,16 +9,16 @@ import Bottom from './Bottom'
 function Wrapper() {
   const Container = styled(motion.div)`
     width: 100%;
-    height: 100%;
+    height: auto;
     display: grid;
     justify-items: center;
-    align-items: center;
-    padding-top: .5rem;
+    align-items: flex-start;
+    margin-top: .5rem;
   `
   return (
     <Container whileInView={{ opacity: [0, 1] }} transition={{ duration: 1, ease: 'easeInOut' }}>
-        <Top />
-        <Bottom />
+      <Top />
+      <Bottom />
     </Container>
   )
 }

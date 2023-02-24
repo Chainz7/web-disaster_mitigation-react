@@ -1,8 +1,103 @@
-import React from 'react'
+import React, { useState } from 'react'
+import styled from 'styled-components'
+import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
+import lottie from 'lottie-web';
+import { defineElement } from 'lord-icon-element';
 
+import { vari, img } from '../../../constants'
+
+defineElement(lottie.loadAnimation);
 function Right() {
+  const Container = styled.div`
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: .55rem;
+  padding-bottom: .6rem;
+`
+const Wrapper = styled.div`
+  width: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding-left: 1rem;
+  padding-right: 1.5rem;
+  border-radius: 0 0 .5rem .5rem;
+  border-bottom: 1px solid rgba(210, 215, 211, 0.5);
+  border-left: 1px solid rgba(210, 215, 211, 0.5);
+  border-right: 1px solid rgba(210, 215, 211, 0.5);
+  box-shadow: 0 2px 4px 0 rgba(210, 215, 211, 0.5); 
+`
+const ItemContainer = styled(Link)`
+  width: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .25rem;
+  &:hover {
+    color: ${vari.primary};
+    transition: all 0.2s ease-in-out;
+  }
+`
+const LogoContainer = styled.div`
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`
+const ItemTitle = styled.span`
+  font-weight: 400;
+  font-size: 15px;
+`
   return (
-    <div>Right</div>
+    <Container>
+      <Wrapper>
+        <ItemContainer to="/login" className='link'>
+          <LogoContainer>
+            <lord-icon
+              src="https://cdn.lordicon.com/kqcykigc.json"
+              trigger="loop"
+              delay="100"
+              colors="outline:#121331,primary:#66dac1,secondary:#66dac1"
+              style={{width:"100%", height:"100%", objectFit:"cover"}}>
+            </lord-icon>
+          </LogoContainer>
+          <ItemTitle>Kabar</ItemTitle>
+        </ItemContainer>
+        <ItemContainer to="/login" className='link'>
+          <LogoContainer>
+            <lord-icon
+              src="https://cdn.lordicon.com/ttioogfl.json"
+              trigger="morph"
+              delay="100"
+              colors="primary:#121331,secondary:#ebe6ef,tertiary:#66DAC1,quaternary:#92140c,quinary:#f9c9c0"
+              style={{width:"100%", height:"100%", objectFit:"cover"}}>
+            </lord-icon>
+          </LogoContainer>
+          <ItemTitle>Pelajari</ItemTitle>
+        </ItemContainer>
+        <ItemContainer to="/login" className='link'>
+          <LogoContainer>
+            <lord-icon
+              src="https://cdn.lordicon.com/fihkmkwt.json"
+              trigger="loop-on-hover"
+              delay="100"
+              colors="primary:#121331,secondary:#66DAC1"
+              style={{width:"100%", height:"100%", objectFit:"cover"}}>
+            </lord-icon>
+          </LogoContainer>
+          <ItemTitle>Peta</ItemTitle>
+        </ItemContainer>
+      </Wrapper>
+    </Container>
   )
 }
 
