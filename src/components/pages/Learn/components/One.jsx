@@ -223,9 +223,20 @@ function One() {
       }
     }
   }
+  const rightIn = {
+    whileInView: {
+      y: [30, 0],
+      scale: [1, 1],
+      opacity: [.5, 1],
+      transition: {
+        duration: 1,
+        ease: 'easeInOut'
+      }
+    }
+  }
   const leftIn = {
     whileInView: {
-      x: [-30, 0],
+      y: [30, 0],
       scale: [1, 1],
       opacity: [.5, 1],
       transition: {
@@ -263,7 +274,7 @@ function One() {
       </SubContainer1>
       <SubContainer2 variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
         <Link to="/kabar" className='link'>
-          <SubImageContainer variant={leftIn} whileInView={leftIn.whileInView}>
+          <SubImageContainer variant={rightIn} whileInView={rightIn.whileInView}>
             <lord-icon
               src="https://cdn.lordicon.com/wiqmayhq.json"
               trigger="loop"
@@ -274,7 +285,7 @@ function One() {
         </Link>
         <Link to="/kabar" className='link'>
           <SubTitleContainer>
-            <SubTitle className='subtitle-hover' variant={leftIn} whileInView={leftIn.whileInView}>Bencana Semua</SubTitle>
+            <SubTitle className='subtitle-hover' variant={rightIn} whileInView={rightIn.whileInView}>Bencana Semua</SubTitle>
           </SubTitleContainer>
         </Link>
       </SubContainer2>
@@ -297,7 +308,7 @@ function One() {
       </SubContainer3>
       <SubContainer4 variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
         <Link to="/kabar" className='link'>
-          <SubImageContainer variant={leftIn} whileInView={leftIn.whileInView}>
+          <SubImageContainer variant={rightIn} whileInView={rightIn.whileInView}>
             <lord-icon
               src="https://cdn.lordicon.com/wiqmayhq.json"
               trigger="loop"
@@ -308,7 +319,7 @@ function One() {
         </Link>
         <Link to="/kabar" className='link'>
           <SubTitleContainer>
-            <SubTitle className='subtitle-hover' variant={leftIn} whileInView={leftIn.whileInView}>Bencana Semua</SubTitle>
+            <SubTitle className='subtitle-hover' variant={rightIn} whileInView={rightIn.whileInView}>Bencana Semua</SubTitle>
           </SubTitleContainer>
         </Link>
       </SubContainer4>
