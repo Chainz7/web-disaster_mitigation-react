@@ -15,6 +15,9 @@ function Wrapper() {
     padding-top: 3.6rem;
     background-color: ${vari.tertiary};
     z-index: 1;
+    @media (max-width: 1067px) {
+      gap: 1rem;
+    }
   `
   return (
     <Container>

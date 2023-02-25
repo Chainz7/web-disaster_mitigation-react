@@ -59,6 +59,15 @@ function Right() {
     font-weight: 400;
     font-size: 15px;
   `
+  const opacityIn = {
+    whileInView: {
+      opacity: [0, 1],
+      transit1n: {
+        duration: 1,
+        ease: 'easeInOut'
+      }
+    }
+  }
   const scaleIn = {
     whileInView: {
       scale: [0, 1],
@@ -69,12 +78,14 @@ function Right() {
       }
     }
   }
-
+  const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
   return (
     <Container>
       <Wrapper>
         <ItemContainer to="/kabar" className='link'>
-          <LogoContainer variant={scaleIn} whileInView={scaleIn.whileInView}>
+          <LogoContainer variant={isSmallScreen ? opacityIn : scaleIn}
+                whileInView={isSmallScreen ? opacityIn.whileInView : scaleIn.whileInView}
+                isSmallScreen={isSmallScreen}>
             <lord-icon
                   src="https://cdn.lordicon.com/iqocwzif.json"
                   trigger="loop"
@@ -83,10 +94,14 @@ function Right() {
               style={{width:"100%", height:"100%", objectFit:"cover"}}>
             </lord-icon>
           </LogoContainer>
-          <ItemTitle variant={scaleIn} whileInView={scaleIn.whileInView}>Kabar</ItemTitle>
+          <ItemTitle variant={isSmallScreen ? opacityIn : scaleIn}
+                whileInView={isSmallScreen ? opacityIn.whileInView : scaleIn.whileInView}
+                isSmallScreen={isSmallScreen}>Kabar</ItemTitle>
         </ItemContainer>
         <ItemContainer to="/" className='link'>
-          <LogoContainer variant={scaleIn} whileInView={scaleIn.whileInView}>
+          <LogoContainer variant={isSmallScreen ? opacityIn : scaleIn}
+                whileInView={isSmallScreen ? opacityIn.whileInView : scaleIn.whileInView}
+                isSmallScreen={isSmallScreen}>
             <lord-icon
               src="https://cdn.lordicon.com/dxoycpzg.json"
               trigger="morph"
@@ -95,10 +110,14 @@ function Right() {
               style={{width:"100%", height:"100%", objectFit:"cover"}}>
             </lord-icon>
           </LogoContainer>
-          <ItemTitle variant={scaleIn} whileInView={scaleIn.whileInView}>Pelajari</ItemTitle>
+          <ItemTitle variant={isSmallScreen ? opacityIn : scaleIn}
+                whileInView={isSmallScreen ? opacityIn.whileInView : scaleIn.whileInView}
+                isSmallScreen={isSmallScreen}>Pelajari</ItemTitle>
         </ItemContainer>
         <ItemContainer to="/peta" className='link'>
-          <LogoContainer variant={scaleIn} whileInView={scaleIn.whileInView}>
+          <LogoContainer variant={isSmallScreen ? opacityIn : scaleIn}
+                whileInView={isSmallScreen ? opacityIn.whileInView : scaleIn.whileInView}
+                isSmallScreen={isSmallScreen}>
             <lord-icon
               src="https://cdn.lordicon.com/oaflahpk.json"
               trigger="loop-on-hover"
@@ -107,7 +126,9 @@ function Right() {
               style={{width:"100%", height:"100%", objectFit:"cover"}}>
             </lord-icon>
           </LogoContainer>
-          <ItemTitle variant={scaleIn} whileInView={scaleIn.whileInView}>Peta</ItemTitle>
+          <ItemTitle variant={isSmallScreen ? opacityIn : scaleIn}
+                whileInView={isSmallScreen ? opacityIn.whileInView : scaleIn.whileInView}
+                isSmallScreen={isSmallScreen}>Peta</ItemTitle>
         </ItemContainer>
       </Wrapper>
     </Container>

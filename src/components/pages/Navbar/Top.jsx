@@ -59,6 +59,15 @@ function Left() {
     font-size: 16px;
     color: ${vari.primary};
   `
+  const opacityIn = {
+    whileInView: {
+      opacity: [0, 1],
+      transit1n: {
+        duration: 1,
+        ease: 'easeInOut'
+      }
+    }
+  }
   const leftIn = {
     whileInView: {
       x: [-50, 0],
@@ -81,15 +90,31 @@ function Left() {
       }
     }
   }
+  const bottomIn = {
+    whileInView: {
+      y: [50, 0],
+      scale: [1, 1],
+      opacity: [0, 1],
+      transition: {
+        duration: .7,
+        ease: 'easeInOut'
+      }
+    }
+  }
+  const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
   return (
     <Container>
-      <Top variant={leftIn} whileInView={leftIn.whileInView}>
+      <Top variant={isSmallScreen ? bottomIn : leftIn}
+          whileInView={isSmallScreen ? bottomIn.whileInView : leftIn.whileInView}
+          isSmallScreen={isSmallScreen}>
         <LogoContainer>
           <Logo src={img.logo}/>
         </LogoContainer>
         <Title>SiBena</Title>
       </Top>
-      <Bottom variant={rightIn} whileInView={rightIn.whileInView}>
+      <Bottom variant={isSmallScreen ? bottomIn : rightIn}
+          whileInView={isSmallScreen ? bottomIn.whileInView : rightIn.whileInView}
+          isSmallScreen={isSmallScreen}>
         <Subtitle>Sigap&nbsp;<SubtitleSpan>Bencana</SubtitleSpan>&nbsp;Alam</Subtitle>
       </Bottom>
     </Container>

@@ -252,7 +252,7 @@ function One() {
   const opacityIn = {
     whileInView: {
       opacity: [0, 1],
-      transit1n: {
+      transition: {
         duration: 1,
         ease: 'easeInOut'
       }
@@ -260,7 +260,7 @@ function One() {
   }
   const bottomIn = {
     whileInView: {
-      y: [50, 0],
+      y: [30, 0],
       scale: [1, 1],
       opacity: [0, 1],
       transition: {
@@ -269,84 +269,81 @@ function One() {
       }
     }
   }
-  const rightIn = {
-    whileInView: {
-      y: [30, 0],
-      scale: [1, 1],
-      opacity: [.5, 1],
-      transition: {
-        duration: .7,
-        ease: 'easeInOut'
-      }
-    }
-  }
-  const leftIn = {
-    whileInView: {
-      y: [30, 0],
-      scale: [1, 1],
-      opacity: [.5, 1],
-      transition: {
-        duration: .7,
-        ease: 'easeInOut'
-      }
-    }
-  }
+  const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
   return (
     <Container variant={opacityIn} whileInView={opacityIn.whileInView}>
       <MainContainer>
         <ImageContainer variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
           <Image src={img.learn1}/>
           <TitleContainer>
-            <Title variant={bottomIn} whileInView={bottomIn.whileInView}>Bencana</Title>
+            <Title variant={isSmallScreen ? opacityIn : bottomIn}
+                whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
+                isSmallScreen={isSmallScreen}>Bencana</Title>
           </TitleContainer>
         </ImageContainer>
       </MainContainer>
       <SubContainer1 variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
-        <Link to="/kabar" className='link'>
-          <SubImageContainer variant={leftIn} whileInView={leftIn.whileInView}>
+        <Link to="/pelajari/artikel-1" className='link'>
+          <SubImageContainer variant={isSmallScreen ? opacityIn : bottomIn}
+          whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
+          isSmallScreen={isSmallScreen}>
             <SubImage src={img.learnIcon1}/>
             {/* <SubImageBG1></SubImageBG1> */}
           </SubImageContainer>
         </Link>
-        <Link to="/kabar" className='link'>
+        <Link to="/pelajari/artikel-1" className='link'>
           <SubTitleContainer>
-            <SubTitle className='subtitle-hover' variant={leftIn} whileInView={leftIn.whileInView}>Banjir Bandang</SubTitle>
+            <SubTitle className='subtitle-hover' variant={isSmallScreen ? opacityIn : bottomIn}
+          whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
+          isSmallScreen={isSmallScreen}>Banjir Bandang</SubTitle>
           </SubTitleContainer>
         </Link>
       </SubContainer1>
       <SubContainer2 variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
         <Link to="/kabar" className='link'>
-          <SubImageContainer variant={rightIn} whileInView={rightIn.whileInView}>
+          <SubImageContainer variant={isSmallScreen ? opacityIn : bottomIn}
+          whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
+          isSmallScreen={isSmallScreen}>
           <SubImage src={img.learnIcon2}/>
           </SubImageContainer>
         </Link>
         <Link to="/kabar" className='link'>
           <SubTitleContainer>
-            <SubTitle className='subtitle-hover' variant={rightIn} whileInView={rightIn.whileInView}>Tanah Longsor</SubTitle>
+            <SubTitle className='subtitle-hover' variant={isSmallScreen ? opacityIn : bottomIn}
+          whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
+          isSmallScreen={isSmallScreen}>Tanah Longsor</SubTitle>
           </SubTitleContainer>
         </Link>
       </SubContainer2>
       <SubContainer3 variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
         <Link to="/kabar" className='link'>
-          <SubImageContainer variant={leftIn} whileInView={leftIn.whileInView}>
+          <SubImageContainer variant={isSmallScreen ? opacityIn : bottomIn}
+          whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
+          isSmallScreen={isSmallScreen}>
             <SubImage src={img.learnIcon3}/>
           </SubImageContainer>
         </Link>
         <Link to="/kabar" className='link'>
           <SubTitleContainer>
-            <SubTitle className='subtitle-hover' variant={leftIn} whileInView={leftIn.whileInView}>Gunung Meletus</SubTitle>
+            <SubTitle className='subtitle-hover' variant={isSmallScreen ? opacityIn : bottomIn}
+          whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
+          isSmallScreen={isSmallScreen}>Gunung Meletus</SubTitle>
           </SubTitleContainer>
         </Link>
       </SubContainer3>
       <SubContainer4 variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
         <Link to="/kabar" className='link'>
-          <SubImageContainer variant={rightIn} whileInView={rightIn.whileInView}>
+          <SubImageContainer variant={isSmallScreen ? opacityIn : bottomIn}
+          whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
+          isSmallScreen={isSmallScreen}>
             <SubImage src={img.learnIcon0}/>
           </SubImageContainer>
         </Link>
         <Link to="/kabar" className='link'>
           <SubTitleContainer>
-            <SubTitle className='subtitle-hover' variant={rightIn} whileInView={rightIn.whileInView}>Bisa Terjadi Bersamaan?</SubTitle>
+            <SubTitle className='subtitle-hover' variant={isSmallScreen ? opacityIn : bottomIn}
+          whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
+          isSmallScreen={isSmallScreen}>Bisa Terjadi Bersamaan?</SubTitle>
           </SubTitleContainer>
         </Link>
       </SubContainer4>

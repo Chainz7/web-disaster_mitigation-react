@@ -8,5 +8,3 @@ export { default as LearnContent } from './pages/Learn/Wrapper'
 export { default as NewsContent } from './pages/News/Wrapper'
 // Map
 export { default as MapContent } from './pages/Map/Wrapper'
-// Article
-export { default as ArticleContent } from './pages/Learn/Article/Wrapper'
