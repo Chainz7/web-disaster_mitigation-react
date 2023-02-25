@@ -61,7 +61,7 @@ function Left() {
   `
   const leftIn = {
     whileInView: {
-      x: [-100, 0],
+      x: [-50, 0],
       scale: [1, 1],
       opacity: [.5, 1],
       transition: {
@@ -72,7 +72,7 @@ function Left() {
   }
   const rightIn = {
     whileInView: {
-      x: [100, 0],
+      x: [50, 0],
       scale: [1, 1],
       opacity: [.5, 1],
       transition: {
