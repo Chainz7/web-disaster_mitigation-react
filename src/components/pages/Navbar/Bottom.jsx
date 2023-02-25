@@ -15,9 +15,9 @@ function Right() {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: .55rem;
+    padding-top: .5rem;
     padding-bottom: .6rem;
-    z-index: 100;
+    z-index: 1;
   `
   const Wrapper = styled.div`
     width: auto;

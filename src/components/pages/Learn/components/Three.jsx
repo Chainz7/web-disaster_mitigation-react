@@ -176,7 +176,7 @@ function Three() {
     whileInView: {
       opacity: [0, 1],
       transition: {
-        duration: 1,
+        duration: .7,
         ease: 'easeInOut'
       }
     }

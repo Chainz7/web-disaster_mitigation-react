@@ -14,6 +14,7 @@ function Left() {
     padding-bottom: .5rem;
     border-bottom: 1px solid rgba(210, 215, 211, 0.5);
     box-shadow: 0 2px 4px 0 rgba(210, 215, 211, 0.5); 
+    z-index: 100;
   `
   const Top = styled(motion.div)`
     width: 100%;
