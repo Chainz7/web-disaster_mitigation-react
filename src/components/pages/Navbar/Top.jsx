@@ -15,7 +15,7 @@ function Left() {
     border-bottom: 1px solid rgba(210, 215, 211, 0.5);
     box-shadow: 0 2px 4px 0 rgba(210, 215, 211, 0.5); 
   `
-  const Top = styled.div`
+  const Top = styled(motion.div)`
     width: 100%;
     height: 100%;
     display: flex;
@@ -40,7 +40,7 @@ function Left() {
     font-weight: 600;
     font-size: 30px;
   `
-  const Bottom = styled.div`
+  const Bottom = styled(motion.div)`
     width: 100%;
     height: 100%;
     display: flex;
@@ -59,15 +59,37 @@ function Left() {
     font-size: 16px;
     color: ${vari.primary};
   `
+  const leftIn = {
+    whileInView: {
+      x: [-100, 0],
+      scale: [1, 1],
+      opacity: [.5, 1],
+      transition: {
+        duration: 1,
+        ease: 'easeInOut'
+      }
+    }
+  }
+  const rightIn = {
+    whileInView: {
+      x: [100, 0],
+      scale: [1, 1],
+      opacity: [.5, 1],
+      transition: {
+        duration: 1,
+        ease: 'easeInOut'
+      }
+    }
+  }
   return (
     <Container>
-      <Top>
+      <Top variant={leftIn} whileInView={leftIn.whileInView}>
         <LogoContainer>
           <Logo src={img.logo}/>
         </LogoContainer>
         <Title>SiBena</Title>
       </Top>
-      <Bottom>
+      <Bottom variant={rightIn} whileInView={rightIn.whileInView}>
         <Subtitle>Sigap&nbsp;<SubtitleSpan>Bencana</SubtitleSpan>&nbsp;Alam</Subtitle>
       </Bottom>
     </Container>

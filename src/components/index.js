@@ -6,5 +6,7 @@ export { default as FooterContent } from './pages/Footer/Wrapper'
 export { default as LearnContent } from './pages/Learn/Wrapper'
 // News
 export { default as NewsContent } from './pages/News/Wrapper'
+// Map
+export { default as MapContent } from './pages/Map/Wrapper'
 // Article
-export { default as ArticleContent } from './pages/Article/Wrapper'
+export { default as ArticleContent } from './pages/Learn/Article/Wrapper'

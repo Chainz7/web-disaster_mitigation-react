@@ -38,6 +38,13 @@ function animated() {
         colors="primary:#121331,secondary:#66dac1,tertiary:#ffc738,quaternary:#ebe6ef"
         style={{width:"250px", height:"250px"}}>
       </lord-icon>
+      {/* Device Small  */}
+      <lord-icon
+        src="https://cdn.lordicon.com/wiqmayhq.json"
+        trigger="loop"
+        colors="outline:#121331,primary:#66dac1,secondary:#92140c"
+        style={{width:"250px", height:"250px"}}>
+      </lord-icon>
     </>
   )
 }

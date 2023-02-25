@@ -10,58 +10,71 @@ import { vari, img } from '../../../constants'
 defineElement(lottie.loadAnimation);
 function Right() {
   const Container = styled.div`
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: .55rem;
-  padding-bottom: .6rem;
-`
-const Wrapper = styled.div`
-  width: auto;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  padding-left: 1rem;
-  padding-right: 1.5rem;
-  border-radius: 0 0 .5rem .5rem;
-  border-bottom: 1px solid rgba(210, 215, 211, 0.5);
-  border-left: 1px solid rgba(210, 215, 211, 0.5);
-  border-right: 1px solid rgba(210, 215, 211, 0.5);
-  box-shadow: 0 2px 4px 0 rgba(210, 215, 211, 0.5); 
-`
-const ItemContainer = styled(Link)`
-  width: auto;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: .25rem;
-  &:hover {
-    color: ${vari.primary};
-    transition: all 0.2s ease-in-out;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: .55rem;
+    padding-bottom: .6rem;
+    z-index: 100;
+  `
+  const Wrapper = styled.div`
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-left: 1rem;
+    padding-right: 1.5rem;
+    background-color: ${vari.secondary};
+    border-radius: 0 0 .5rem .5rem;
+    border-bottom: 1px solid rgba(210, 215, 211, 0.5);
+    border-left: 1px solid rgba(210, 215, 211, 0.5);
+    border-right: 1px solid rgba(210, 215, 211, 0.5);
+    box-shadow: 0 2px 4px 0 rgba(210, 215, 211, 0.5); 
+  `
+  const ItemContainer = styled(Link)`
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .25rem;
+    &:hover {
+      color: ${vari.primary};
+      transition: all 0.4s ease-in-out;
+    }
+  `
+  const LogoContainer = styled(motion.div)`
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  `
+  const ItemTitle = styled(motion.span)`
+    font-weight: 400;
+    font-size: 15px;
+  `
+  const scaleIn = {
+    whileInView: {
+      scale: [0, 1],
+      opacity: [.5, 1],
+      transition: {
+        duration: 1,
+        ease: 'easeInOut'
+      }
+    }
   }
-`
-const LogoContainer = styled.div`
-  width: 2rem;
-  height: 2rem;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`
-const ItemTitle = styled.span`
-  font-weight: 400;
-  font-size: 15px;
-`
+
   return (
     <Container>
       <Wrapper>
-        <ItemContainer to="/login" className='link'>
-          <LogoContainer>
+        <ItemContainer to="/kabar" className='link'>
+          <LogoContainer variant={scaleIn} whileInView={scaleIn.whileInView}>
             <lord-icon
               src="https://cdn.lordicon.com/kqcykigc.json"
               trigger="loop"
@@ -70,10 +83,10 @@ const ItemTitle = styled.span`
               style={{width:"100%", height:"100%", objectFit:"cover"}}>
             </lord-icon>
           </LogoContainer>
-          <ItemTitle>Kabar</ItemTitle>
+          <ItemTitle variant={scaleIn} whileInView={scaleIn.whileInView}>Kabar</ItemTitle>
         </ItemContainer>
-        <ItemContainer to="/login" className='link'>
-          <LogoContainer>
+        <ItemContainer to="/" className='link'>
+          <LogoContainer variant={scaleIn} whileInView={scaleIn.whileInView}>
             <lord-icon
               src="https://cdn.lordicon.com/ttioogfl.json"
               trigger="morph"
@@ -82,10 +95,10 @@ const ItemTitle = styled.span`
               style={{width:"100%", height:"100%", objectFit:"cover"}}>
             </lord-icon>
           </LogoContainer>
-          <ItemTitle>Pelajari</ItemTitle>
+          <ItemTitle variant={scaleIn} whileInView={scaleIn.whileInView}>Pelajari</ItemTitle>
         </ItemContainer>
-        <ItemContainer to="/login" className='link'>
-          <LogoContainer>
+        <ItemContainer to="/peta" className='link'>
+          <LogoContainer variant={scaleIn} whileInView={scaleIn.whileInView}>
             <lord-icon
               src="https://cdn.lordicon.com/fihkmkwt.json"
               trigger="loop-on-hover"
@@ -94,7 +107,7 @@ const ItemTitle = styled.span`
               style={{width:"100%", height:"100%", objectFit:"cover"}}>
             </lord-icon>
           </LogoContainer>
-          <ItemTitle>Peta</ItemTitle>
+          <ItemTitle variant={scaleIn} whileInView={scaleIn.whileInView}>Peta</ItemTitle>
         </ItemContainer>
       </Wrapper>
     </Container>
