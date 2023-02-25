@@ -11,7 +11,7 @@ defineElement(lottie.loadAnimation);
 function One() {
   const Container = styled.div`
     width: 900px;
-    height: 500px;
+    height: 400px;
     display: grid;
     position: relative;
     justify-items: center;
@@ -74,8 +74,8 @@ function One() {
     justify-content: center;
     align-items: center;
     gap: .75rem;
-    left: 0;
-    top: 0;
+    left: 5rem;
+    top: 3rem;
     &:hover {
       .subtitle-hover {
         color: ${vari.primary};
@@ -87,6 +87,8 @@ function One() {
       position: relative;
       justify-content: flex-start;
       gap: .5rem;
+      left: 0;
+      top: 0;
       margin-top: 1rem;
       padding-left: 1rem;
       padding-top: .5rem;
@@ -106,8 +108,8 @@ function One() {
     justify-content: center;
     align-items: center;
     gap: .75rem;
-    right: 0;
-    top: 0;
+    right: 3rem;
+    top: 3rem;
     &:hover {
       .subtitle-hover {
         color: ${vari.primary};
@@ -119,6 +121,8 @@ function One() {
       position: relative;
       justify-content: flex-start;
       gap: .5rem;
+      left: 0;
+      top: 0;
       padding-left: 1rem;
       padding-top: .5rem;
       padding-bottom: .5rem;
@@ -137,8 +141,8 @@ function One() {
     justify-content: center;
     align-items: center;
     gap: .75rem;
-    left: 0;
-    bottom: 0;
+    left: 7rem;
+    bottom: 4rem;
     &:hover {
       .subtitle-hover {
         color: ${vari.primary};
@@ -150,6 +154,8 @@ function One() {
       position: relative;
       justify-content: flex-start;
       gap: .5rem;
+      left: 0;
+      bottom: 0;
       padding-left: 1rem;
       padding-top: .5rem;
       padding-bottom: .5rem;
@@ -169,7 +175,7 @@ function One() {
     align-items: center;
     gap: .75rem;
     right: 0;
-    bottom: 0;
+    bottom: 5rem;
     &:hover {
       .subtitle-hover {
         color: ${vari.primary};
@@ -181,6 +187,8 @@ function One() {
       position: relative;
       justify-content: flex-start;
       gap: .5rem;
+      right: 0;
+      bottom: 0;
       padding-left: 1rem;
       padding-top: .5rem;
       padding-bottom: .5rem;
