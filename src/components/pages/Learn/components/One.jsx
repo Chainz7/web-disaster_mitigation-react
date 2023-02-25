@@ -10,23 +10,26 @@ import { vari, img } from '../../../../constants'
 defineElement(lottie.loadAnimation);
 function One() {
   const Container = styled.div`
-    width: 1000px;
+    width: 900px;
     height: 500px;
     display: grid;
     position: relative;
     justify-items: center;
     align-items: center;
     border-radius: 0 0 .5rem .5rem;
-    /* background-image: url('https://www.pngarts.com/files/11/Grid-Pattern-PNG-Image-Background.png');
-    background-size: 100%;
-    background-repeat: no-repeat; */
+    background-image: url(${img.background});
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
     @media (max-width: 1067px) {
       width: 100%;
       height: 100%;
       align-items: start;
-      margin-top: 3rem;
+      margin-top: 6rem;
       margin-bottom: 1.4rem;
       padding-bottom: 1.6rem;
+      background-position: top;
+      background-size: 52%;
     }
   `
   const MainContainer = styled.div`
@@ -56,7 +59,7 @@ function One() {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 7rem;
     background-color: ${vari.secondaryTransparent};
   `
   const Title = styled(motion.span)`
@@ -66,10 +69,11 @@ function One() {
     font-size: 32px;
   `
   const SubContainer1 = styled(motion.div)`
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    gap: .75rem;
     left: 0;
     top: 0;
     &:hover {
@@ -84,7 +88,10 @@ function One() {
       justify-content: flex-start;
       gap: .5rem;
       margin-top: 1rem;
-      padding-left: .5rem;
+      padding-left: 1rem;
+      padding-top: .5rem;
+      padding-bottom: .5rem;
+      background-color: white;
       border: 1px solid rgba(210, 215, 211, 0.5);
       border-radius: 1px;
       box-shadow: 0 2px 4px 0 rgba(210, 215, 211, 0.5); 
@@ -94,10 +101,11 @@ function One() {
     }
   `
   const SubContainer2 = styled(motion.div)`
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    gap: .75rem;
     right: 0;
     top: 0;
     &:hover {
@@ -111,7 +119,10 @@ function One() {
       position: relative;
       justify-content: flex-start;
       gap: .5rem;
-      padding-left: .5rem;
+      padding-left: 1rem;
+      padding-top: .5rem;
+      padding-bottom: .5rem;
+      background-color: white;
       border: 1px solid rgba(210, 215, 211, 0.5);
       border-radius: 1px;
       box-shadow: 0 2px 4px 0 rgba(210, 215, 211, 0.5); 
@@ -121,10 +132,11 @@ function One() {
     }
   `
   const SubContainer3 = styled(motion.div)`
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    gap: .75rem;
     left: 0;
     bottom: 0;
     &:hover {
@@ -138,7 +150,10 @@ function One() {
       position: relative;
       justify-content: flex-start;
       gap: .5rem;
-      padding-left: .5rem;
+      padding-left: 1rem;
+      padding-top: .5rem;
+      padding-bottom: .5rem;
+      background-color: white;
       border: 1px solid rgba(210, 215, 211, 0.5);
       border-radius: 1px;
       box-shadow: 0 2px 4px 0 rgba(210, 215, 211, 0.5); 
@@ -148,10 +163,11 @@ function One() {
     }
   `
   const SubContainer4 = styled(motion.div)`
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    gap: .75rem;
     right: 0;
     bottom: 0;
     &:hover {
@@ -165,7 +181,10 @@ function One() {
       position: relative;
       justify-content: flex-start;
       gap: .5rem;
-      padding-left: .5rem;
+      padding-left: 1rem;
+      padding-top: .5rem;
+      padding-bottom: .5rem;
+      background-color: white;
       border: 1px solid rgba(210, 215, 211, 0.5);
       border-radius: 1px;
       box-shadow: 0 2px 4px 0 rgba(210, 215, 211, 0.5); 
@@ -175,38 +194,56 @@ function One() {
     }
   `
   const SubImageContainer = styled(motion.div)`
-    width: 6rem;
-    height: 6rem;
+    width: 4rem;
+    height: 4rem;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     @media (max-width: 1067px) {
-      width: 4rem;
-      height: 4rem;
+      width: 3rem;
+      height: 3rem;
     }
   `
+  // const SubImageBG1 = styled.div`
+  //   width: 80%;
+  //   height: 80%;
+  //   top: 0;
+  //   left: 0;
+  //   position: absolute;
+  //   background-color: ${vari.primary};
+  //   border-radius: 41% 59% 81% 19% / 53% 41% 59147%;
+  //   object-fit: cover;
+  //   z-index: 1;
+  // `
   const SubImage = styled.img`
     width: 100%;
     height: 100%;
+    border-radius: 50%;
     object-fit: cover;
+    z-index: 99;
   `
   const SubTitleContainer = styled.div`
+    width: 11rem;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    @media (max-width: 1067px) {
+      width: auto;
+    }
   `
   const SubTitle = styled(motion.span)`
     font-weight: 500;
-    font-size: 20px;
+    font-size: 17px;
     @media (max-width: 1067px) {
       font-weight: 500;
-      font-size: 18px;
+      font-size: 16px;
     }
   `
   const opacityIn = {
     whileInView: {
       opacity: [0, 1],
-      transition: {
+      transit1n: {
         duration: 1,
         ease: 'easeInOut'
       }
@@ -249,77 +286,58 @@ function One() {
     <Container>
       <MainContainer>
         <ImageContainer variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
-          <Image src={img.Learn1}/>
+          <Image src={img.learn1}/>
           <TitleContainer>
-            <Title variant={bottomIn} whileInView={bottomIn.whileInView}>Bencana Alam</Title>
+            <Title variant={bottomIn} whileInView={bottomIn.whileInView}>Bencana</Title>
           </TitleContainer>
         </ImageContainer>
       </MainContainer>
       <SubContainer1 variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
         <Link to="/kabar" className='link'>
           <SubImageContainer variant={leftIn} whileInView={leftIn.whileInView}>
-            <lord-icon
-              src="https://cdn.lordicon.com/wiqmayhq.json"
-              trigger="loop"
-              colors="outline:#121331,primary:#66dac1,secondary:#92140c"
-              style={{width:"100%", height:"100%"}}>
-            </lord-icon>
+            <SubImage src={img.learnIcon1}/>
+            {/* <SubImageBG1></SubImageBG1> */}
           </SubImageContainer>
         </Link>
         <Link to="/kabar" className='link'>
           <SubTitleContainer>
-            <SubTitle className='subtitle-hover' variant={leftIn} whileInView={leftIn.whileInView}>Bencana Semua</SubTitle>
+            <SubTitle className='subtitle-hover' variant={leftIn} whileInView={leftIn.whileInView}>Banjir Bandang</SubTitle>
           </SubTitleContainer>
         </Link>
       </SubContainer1>
       <SubContainer2 variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
         <Link to="/kabar" className='link'>
           <SubImageContainer variant={rightIn} whileInView={rightIn.whileInView}>
-            <lord-icon
-              src="https://cdn.lordicon.com/wiqmayhq.json"
-              trigger="loop"
-              colors="outline:#121331,primary:#66dac1,secondary:#92140c"
-              style={{width:"100%", height:"100%"}}>
-            </lord-icon>
+          <SubImage src={img.learnIcon2}/>
           </SubImageContainer>
         </Link>
         <Link to="/kabar" className='link'>
           <SubTitleContainer>
-            <SubTitle className='subtitle-hover' variant={rightIn} whileInView={rightIn.whileInView}>Bencana Semua</SubTitle>
+            <SubTitle className='subtitle-hover' variant={rightIn} whileInView={rightIn.whileInView}>Tanah Longsor</SubTitle>
           </SubTitleContainer>
         </Link>
       </SubContainer2>
       <SubContainer3 variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
         <Link to="/kabar" className='link'>
           <SubImageContainer variant={leftIn} whileInView={leftIn.whileInView}>
-            <lord-icon
-              src="https://cdn.lordicon.com/wiqmayhq.json"
-              trigger="loop"
-              colors="outline:#121331,primary:#66dac1,secondary:#92140c"
-              style={{width:"100%", height:"100%"}}>
-            </lord-icon>
+            <SubImage src={img.learnIcon3}/>
           </SubImageContainer>
         </Link>
         <Link to="/kabar" className='link'>
           <SubTitleContainer>
-            <SubTitle className='subtitle-hover' variant={leftIn} whileInView={leftIn.whileInView}>Bencana Semua</SubTitle>
+            <SubTitle className='subtitle-hover' variant={leftIn} whileInView={leftIn.whileInView}>Gunung Meletus</SubTitle>
           </SubTitleContainer>
         </Link>
       </SubContainer3>
       <SubContainer4 variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
         <Link to="/kabar" className='link'>
           <SubImageContainer variant={rightIn} whileInView={rightIn.whileInView}>
-            <lord-icon
-              src="https://cdn.lordicon.com/wiqmayhq.json"
-              trigger="loop"
-              colors="outline:#121331,primary:#66dac1,secondary:#92140c"
-              style={{width:"100%", height:"100%"}}>
-            </lord-icon>
+            <SubImage src={img.learnIcon4}/>
           </SubImageContainer>
         </Link>
         <Link to="/kabar" className='link'>
           <SubTitleContainer>
-            <SubTitle className='subtitle-hover' variant={rightIn} whileInView={rightIn.whileInView}>Bencana Semua</SubTitle>
+            <SubTitle className='subtitle-hover' variant={rightIn} whileInView={rightIn.whileInView}>Bisa Terjadi Bersamaan?</SubTitle>
           </SubTitleContainer>
         </Link>
       </SubContainer4>

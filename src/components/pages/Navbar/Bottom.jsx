@@ -76,10 +76,10 @@ function Right() {
         <ItemContainer to="/kabar" className='link'>
           <LogoContainer variant={scaleIn} whileInView={scaleIn.whileInView}>
             <lord-icon
-              src="https://cdn.lordicon.com/kqcykigc.json"
-              trigger="loop"
-              delay="100"
-              colors="outline:#121331,primary:#66dac1,secondary:#66dac1"
+                  src="https://cdn.lordicon.com/iqocwzif.json"
+                  trigger="loop"
+                  delay="500"
+                  colors="primary:#66dac1,secondary:#ebe6ef"
               style={{width:"100%", height:"100%", objectFit:"cover"}}>
             </lord-icon>
           </LogoContainer>
@@ -88,10 +88,10 @@ function Right() {
         <ItemContainer to="/" className='link'>
           <LogoContainer variant={scaleIn} whileInView={scaleIn.whileInView}>
             <lord-icon
-              src="https://cdn.lordicon.com/ttioogfl.json"
+              src="https://cdn.lordicon.com/dxoycpzg.json"
               trigger="morph"
-              delay="100"
-              colors="primary:#121331,secondary:#ebe6ef,tertiary:#66DAC1,quaternary:#92140c,quinary:#f9c9c0"
+              colors="primary:#f24c00,secondary:#646e78,tertiary:#66dac1,quaternary:#ebe6ef,quinary:#f9c9c0"
+              state="morph"
               style={{width:"100%", height:"100%", objectFit:"cover"}}>
             </lord-icon>
           </LogoContainer>
@@ -100,10 +100,10 @@ function Right() {
         <ItemContainer to="/peta" className='link'>
           <LogoContainer variant={scaleIn} whileInView={scaleIn.whileInView}>
             <lord-icon
-              src="https://cdn.lordicon.com/fihkmkwt.json"
+              src="https://cdn.lordicon.com/oaflahpk.json"
               trigger="loop-on-hover"
               delay="100"
-              colors="primary:#121331,secondary:#66DAC1"
+              colors="primary:#66DAC1"
               style={{width:"100%", height:"100%", objectFit:"cover"}}>
             </lord-icon>
           </LogoContainer>
