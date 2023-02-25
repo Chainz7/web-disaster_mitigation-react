@@ -3,11 +3,12 @@ import background from '../assets/pages/background.png';
 import learn1 from '../assets/pages/learn1.png';
 import learn2 from '../assets/pages/learn2.png';
 import learn3 from '../assets/pages/learn3.png';
-// import learn4 from '../assets/pages/learn4.png';
-// import learn5 from '../assets/pages/learn5.png';
-// import learn6 from '../assets/pages/learn6.png';
-// import learn7 from '../assets/pages/learn7.png';
-// import learn8 from '../assets/pages/learn8.png';
+import learn4 from '../assets/pages/learn4.png';
+import learn5 from '../assets/pages/learn5.png';
+import learn6 from '../assets/pages/learn6.png';
+import learn7 from '../assets/pages/learn7.png';
+import learn8 from '../assets/pages/learn8.png';
+import learnIcon0 from '../assets/pages/learn2-2.png';
 import learnIcon1 from '../assets/pages/learnIcon1.png';
 import learnIcon2 from '../assets/pages/learnIcon2.png';
 import learnIcon3 from '../assets/pages/learnIcon3.png';
@@ -29,11 +30,12 @@ export default {
  learn1,
  learn2,
  learn3,
-//  learn4,
-//  learn5,
-//  learn6,
-//  learn7,
-//  learn8,
+ learn4,
+ learn5,
+ learn6,
+ learn7,
+ learn8,
+ learnIcon0,
  learnIcon1,
  learnIcon2,
  learnIcon3,

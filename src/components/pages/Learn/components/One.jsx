@@ -9,7 +9,7 @@ import { vari, img } from '../../../../constants'
 
 defineElement(lottie.loadAnimation);
 function One() {
-  const Container = styled.div`
+  const Container = styled(motion.div)`
     width: 900px;
     height: 400px;
     display: grid;
@@ -29,7 +29,7 @@ function One() {
       margin-bottom: 1.4rem;
       padding-bottom: 1.6rem;
       background-position: top;
-      background-size: 52%;
+      background-size: 27rem;
     }
   `
   const MainContainer = styled.div`
@@ -292,7 +292,7 @@ function One() {
     }
   }
   return (
-    <Container>
+    <Container variant={opacityIn} whileInView={opacityIn.whileInView}>
       <MainContainer>
         <ImageContainer variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
           <Image src={img.learn1}/>
@@ -341,7 +341,7 @@ function One() {
       <SubContainer4 variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
         <Link to="/kabar" className='link'>
           <SubImageContainer variant={rightIn} whileInView={rightIn.whileInView}>
-            <SubImage src={img.learnIcon4}/>
+            <SubImage src={img.learnIcon0}/>
           </SubImageContainer>
         </Link>
         <Link to="/kabar" className='link'>

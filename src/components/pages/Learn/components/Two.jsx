@@ -9,7 +9,7 @@ import { vari, img } from '../../../../constants'
 
 defineElement(lottie.loadAnimation);
 function Two() {
-  const Container = styled.div`
+  const Container = styled(motion.div)`
     width: 900px;
     height: 400px;
     display: grid;
@@ -29,7 +29,7 @@ function Two() {
       margin-bottom: 1.4rem;
       padding-bottom: 1.6rem;
       background-position: top;
-      background-size: 52%;
+      background-size: 27rem;
     }
   `
   const MainContainer = styled.div`
@@ -248,7 +248,7 @@ function Two() {
     }
   }
   return (
-    <Container>
+    <Container variant={opacityIn} whileInView={opacityIn.whileInView}>
       <MainContainer>
         <ImageContainer variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
           <Image src={img.learn2}/>
