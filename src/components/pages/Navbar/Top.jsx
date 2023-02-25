@@ -63,9 +63,9 @@ function Left() {
     whileInView: {
       x: [-50, 0],
       scale: [1, 1],
-      opacity: [.5, 1],
+      opacity: [0, 1],
       transition: {
-        duration: 1,
+        duration: .7,
         ease: 'easeInOut'
       }
     }
@@ -74,9 +74,9 @@ function Left() {
     whileInView: {
       x: [50, 0],
       scale: [1, 1],
-      opacity: [.5, 1],
+      opacity: [0, 1],
       transition: {
-        duration: 1,
+        duration: .7,
         ease: 'easeInOut'
       }
     }

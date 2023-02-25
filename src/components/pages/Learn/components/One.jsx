@@ -42,8 +42,8 @@ function One() {
     }
   `
   const ImageContainer = styled(motion.div)`
-    width: 18rem;
-    height: 18rem;
+    width: 17.5rem;
+    height: 17.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,10 +63,11 @@ function One() {
     background-color: ${vari.secondaryTransparent};
   `
   const Title = styled(motion.span)`
-    padding-top: .5rem;
-    padding-bottom: .5rem;
+    text-align: center;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 26px;
   `
   const SubContainer1 = styled(motion.div)`
     position: absolute;
@@ -259,11 +260,11 @@ function One() {
   }
   const bottomIn = {
     whileInView: {
-      y: [100, 0],
+      y: [50, 0],
       scale: [1, 1],
-      opacity: [.5, 1],
+      opacity: [0, 1],
       transition: {
-        duration: 1,
+        duration: .7,
         ease: 'easeInOut'
       }
     }
@@ -274,7 +275,7 @@ function One() {
       scale: [1, 1],
       opacity: [.5, 1],
       transition: {
-        duration: 1,
+        duration: .7,
         ease: 'easeInOut'
       }
     }
@@ -285,7 +286,7 @@ function One() {
       scale: [1, 1],
       opacity: [.5, 1],
       transition: {
-        duration: 1,
+        duration: .7,
         ease: 'easeInOut'
       }
     }

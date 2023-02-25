@@ -8,7 +8,7 @@ import { defineElement } from 'lord-icon-element';
 import { vari, img } from '../../../../constants'
 
 defineElement(lottie.loadAnimation);
-function Two() {
+function Three() {
   const Container = styled.div`
     width: 900px;
     height: 400px;
@@ -75,8 +75,8 @@ function Two() {
     justify-content: center;
     align-items: center;
     gap: .75rem;
-    left: 21rem;
-    top: .5rem;
+    left: 4rem;
+    top: 8rem;
     &:hover {
       .subtitle-hover {
         color: ${vari.primary};
@@ -103,47 +103,14 @@ function Two() {
       width: 93%;
     }
   `
-  const SubContainer3 = styled(motion.div)`
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: .75rem;
-    left: 7rem;
-    bottom: 3rem;
-    &:hover {
-      .subtitle-hover {
-        color: ${vari.primary};
-        transition: all 0.4s ease-in-out;
-      }  
-    }
-    @media (max-width: 1067px) {
-      width: 35rem;
-      position: relative;
-      justify-content: flex-start;
-      gap: .5rem;
-      left: 0;
-      bottom: 0;
-      padding-left: 1rem;
-      padding-top: .5rem;
-      padding-bottom: .5rem;
-      background-color: white;
-      border: 1px solid rgba(210, 215, 211, 0.5);
-      border-radius: 1px;
-      box-shadow: 0 2px 4px 0 rgba(210, 215, 211, 0.5); 
-    }
-    @media (max-width: 610px) {
-      width: 93%;
-    }
-  `
   const SubContainer4 = styled(motion.div)`
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: .75rem;
-    right: 3rem;
-    bottom: 6rem;
+    right: 2rem;
+    bottom: 8rem;
     &:hover {
       .subtitle-hover {
         color: ${vari.primary};
@@ -251,45 +218,33 @@ function Two() {
     <Container>
       <MainContainer>
         <ImageContainer variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
-          <Image src={img.learn2}/>
+          <Image src={img.learn3}/>
           <TitleContainer>
-            <Title variant={bottomIn} whileInView={bottomIn.whileInView}>Kapan Bencana Terjadi ?</Title>
+            <Title variant={bottomIn} whileInView={bottomIn.whileInView}>Edukasi Masyarakat Mengenai Bencana</Title>
           </TitleContainer>
         </ImageContainer>
       </MainContainer>
       <SubContainer1 variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
         <Link to="/kabar" className='link'>
           <SubImageContainer variant={leftIn} whileInView={leftIn.whileInView}>
-            <SubImage src={img.learnIcon1}/>
+            <SubImage src={img.learnIcon8}/>
           </SubImageContainer>
         </Link>
         <Link to="/kabar" className='link'>
           <SubTitleContainer>
-            <SubTitle className='subtitle-hover' variant={leftIn} whileInView={leftIn.whileInView}>Banjir Bandang</SubTitle>
+            <SubTitle className='subtitle-hover' variant={leftIn} whileInView={leftIn.whileInView}>Masyarakat Desa</SubTitle>
           </SubTitleContainer>
         </Link>
       </SubContainer1>
-      <SubContainer3 variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
-        <Link to="/kabar" className='link'>
-          <SubImageContainer variant={leftIn} whileInView={leftIn.whileInView}>
-            <SubImage src={img.learnIcon2}/>
-          </SubImageContainer>
-        </Link>
-        <Link to="/kabar" className='link'>
-          <SubTitleContainer>
-            <SubTitle className='subtitle-hover' variant={leftIn} whileInView={leftIn.whileInView}>Tanah Longsor</SubTitle>
-          </SubTitleContainer>
-        </Link>
-      </SubContainer3>
       <SubContainer4 variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
         <Link to="/kabar" className='link'>
           <SubImageContainer variant={rightIn} whileInView={rightIn.whileInView}>
-            <SubImage src={img.learnIcon3}/>
+            <SubImage src={img.learnIcon9}/>
           </SubImageContainer>
         </Link>
         <Link to="/kabar" className='link'>
           <SubTitleContainer>
-            <SubTitle className='subtitle-hover' variant={rightIn} whileInView={rightIn.whileInView}>Gunung Meletus</SubTitle>
+            <SubTitle className='subtitle-hover' variant={rightIn} whileInView={rightIn.whileInView}>Pengunjung</SubTitle>
           </SubTitleContainer>
         </Link>
       </SubContainer4>
@@ -297,4 +252,4 @@ function Two() {
   )
 }
 
-export default Two
+export default Three
