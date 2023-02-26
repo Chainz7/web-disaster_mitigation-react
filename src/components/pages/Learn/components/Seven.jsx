@@ -41,6 +41,10 @@ function Seven() {
     color: gray;
     opacity: .1;
     cursor: default;
+    &:hover {
+      opacity: .5;
+      transition: all 0.4s ease-in-out;
+    }
     @media (max-width: 1067px) {
       display: none;
     }

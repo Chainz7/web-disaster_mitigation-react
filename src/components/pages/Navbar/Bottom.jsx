@@ -85,7 +85,7 @@ function Right() {
   useEffect(() => {
     const handleScroll = () => {
       const scrollDistance = window.scrollY;
-      setIsFixed(scrollDistance > 100);
+      setIsFixed(scrollDistance > 75);
     };
 
     window.addEventListener('scroll', handleScroll);
