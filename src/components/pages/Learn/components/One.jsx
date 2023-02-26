@@ -32,11 +32,25 @@ function One() {
       background-size: 27rem;
     }
   `
+  const Order = styled(motion.div)`
+    position: absolute;
+    left: 0;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 120px;
+    color: gray;
+    opacity: .1;
+    cursor: default;
+    @media (max-width: 1067px) {
+      display: none;
+    }
+  `
   const MainContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
+    cursor: default;
     @media (max-width: 1067px) {
       position: relative;
     }
@@ -272,6 +286,7 @@ function One() {
   const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
   return (
     <Container variant={opacityIn} whileInView={opacityIn.whileInView}>
+      <Order>1</Order>
       <MainContainer>
         <ImageContainer variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
           <Image src={img.learn1}/>
@@ -300,14 +315,14 @@ function One() {
         </Link>
       </SubContainer1>
       <SubContainer2 variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
-        <Link to="/kabar" className='link'>
+        <Link to="/pelajari/artikel-2" className='link'>
           <SubImageContainer variant={isSmallScreen ? opacityIn : bottomIn}
           whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
           isSmallScreen={isSmallScreen}>
           <SubImage src={img.learnIcon2}/>
           </SubImageContainer>
         </Link>
-        <Link to="/kabar" className='link'>
+        <Link to="/pelajari/artikel-2" className='link'>
           <SubTitleContainer>
             <SubTitle className='subtitle-hover' variant={isSmallScreen ? opacityIn : bottomIn}
           whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
@@ -316,14 +331,14 @@ function One() {
         </Link>
       </SubContainer2>
       <SubContainer3 variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
-        <Link to="/kabar" className='link'>
+        <Link to="/pelajari/artikel-3" className='link'>
           <SubImageContainer variant={isSmallScreen ? opacityIn : bottomIn}
           whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
           isSmallScreen={isSmallScreen}>
             <SubImage src={img.learnIcon3}/>
           </SubImageContainer>
         </Link>
-        <Link to="/kabar" className='link'>
+        <Link to="/pelajari/artikel-3" className='link'>
           <SubTitleContainer>
             <SubTitle className='subtitle-hover' variant={isSmallScreen ? opacityIn : bottomIn}
           whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
@@ -332,14 +347,14 @@ function One() {
         </Link>
       </SubContainer3>
       <SubContainer4 variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
-        <Link to="/kabar" className='link'>
+        <Link to="/pelajari/artikel-4" className='link'>
           <SubImageContainer variant={isSmallScreen ? opacityIn : bottomIn}
           whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
           isSmallScreen={isSmallScreen}>
             <SubImage src={img.learnIcon0}/>
           </SubImageContainer>
         </Link>
-        <Link to="/kabar" className='link'>
+        <Link to="/pelajari/artikel-4" className='link'>
           <SubTitleContainer>
             <SubTitle className='subtitle-hover' variant={isSmallScreen ? opacityIn : bottomIn}
           whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
