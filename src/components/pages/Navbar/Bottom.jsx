@@ -12,12 +12,15 @@ function Right() {
   const Container = styled.div`
     width: 100%;
     height: 100%;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     padding-top: .5rem;
     padding-bottom: .6rem;
     z-index: 10;
+    @media (max-width: 610px) {
+      display: flex;
+    }
   `
   const Wrapper = styled(motion.div)`
     width: auto;
@@ -95,7 +98,9 @@ function Right() {
     };
   }, []);
   return (
-    <Container>
+    <Container style={{ 
+      display: isFixed ? 'flex' : '',
+    }}>
       <Wrapper style={{ 
         position: isFixed ? 'fixed' : 'static',
         height: isFixed ? '3rem' : '100%',
@@ -111,8 +116,8 @@ function Right() {
                 isSmallScreen={isSmallScreen}>
             <lord-icon
                   src="https://cdn.lordicon.com/iqocwzif.json"
-                  trigger="loop-on-hover"
-                  delay="100"
+                  trigger="loop"
+                  delay="500"
                   colors="primary:#66dac1,secondary:#ebe6ef"
               style={{width:"100%", height:"100%", objectFit:"cover"}}>
             </lord-icon>
@@ -145,7 +150,6 @@ function Right() {
               src="https://cdn.lordicon.com/dxoycpzg.json"
               trigger="morph"
               colors="primary:#f24c00,secondary:#646e78,tertiary:#66dac1,quaternary:#ebe6ef,quinary:#f9c9c0"
-              state="morph"
               style={{width:"100%", height:"100%", objectFit:"cover"}}>
             </lord-icon>
           </LogoContainer>

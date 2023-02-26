@@ -26,8 +26,8 @@ function Right() {
 
   `
   const TopImageContainer = styled(motion.div)`
-    width: 8rem;
-    height: 8rem;
+    width: 6rem;
+    height: 6rem;
     position: relative;
     display: grid;
     justify-items: center;
@@ -36,6 +36,7 @@ function Right() {
   const TopImage = styled.img`
     width: 100%;
     height: 100%;
+    opacity: .9;
     object-fit: cover;
   `
   const BottomContainer = styled.div`
@@ -47,6 +48,7 @@ function Right() {
     font-family: 'Inter';
     font-weight: 500;
     font-size: 17px;
+    color: ${vari.quartery};
   `
   const Copyright = styled(motion.span)`
     display: none;

@@ -1,10 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
+import lottie from 'lottie-web';
+import { defineElement } from 'lord-icon-element';
 
 import { vari, img } from '../../../constants'
-import { Link } from 'react-router-dom'
 
+defineElement(lottie.loadAnimation);
 function Left() {
   const Container = styled.div`
     width: 100%;
@@ -15,6 +18,7 @@ function Left() {
     padding-bottom: .5rem;
     border-bottom: 1px solid rgba(210, 215, 211, 0.5);
     box-shadow: 0 2px 4px 0 rgba(210, 215, 211, 0.5); 
+    background-color: white;
     z-index: 100;
     @media (max-width: 610px) {
       width: 100%;
@@ -75,7 +79,7 @@ function Left() {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: .5rem;
+    gap: 1rem;
     margin-right: 2rem;
     cursor: default;
     @media (max-width: 610px) {
@@ -94,11 +98,41 @@ function Left() {
     align-items: center;
     font-weight: 400;
     font-size: 16px;
+    display: none;
+    @media (max-width: 610px) {
+      display: block;
+    }
   `
   const SubtitleSpan = styled.span`
     font-weight: 400;
     font-size: 16px;
     color: ${vari.primary};
+  `
+  const BottomItem = styled(Link)`
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      color: ${vari.primary};
+      transition: all 0.4s ease-in-out;
+    }
+    @media (max-width: 610px) {
+      display: none;
+    }
+  `
+  const BottomImageContainer = styled.div`
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  `
+  const BottomTitle = styled.div`
+    font-weight: 400;
+    font-size: 15px;
   `
   const opacityIn = {
     whileInView: {
@@ -141,6 +175,42 @@ function Left() {
           whileHover={{ scale: 1.02 }} transition={{ duration: .4 }}
           isSmallScreen={isSmallScreen}>
         <Subtitle>Sigap&nbsp;<SubtitleSpan>Bencana</SubtitleSpan>&nbsp;Alam</Subtitle>
+        <BottomItem to="/peta" className='link'>
+          <BottomImageContainer>
+            <lord-icon
+              src="https://cdn.lordicon.com/iqocwzif.json"
+              trigger="loop-on-hover"
+              delay="100"
+              colors="primary:#66dac1,secondary:#ebe6ef"
+              style={{width:"100%", height:"100%", objectFit:"cover"}}>
+            </lord-icon>
+          </BottomImageContainer>
+          <BottomTitle>Peta</BottomTitle>
+        </BottomItem>
+        <BottomItem to="/kabar" className='link'>
+          <BottomImageContainer>
+            <lord-icon
+              src="https://cdn.lordicon.com/oaflahpk.json"
+              trigger="loop-on-hover"
+              delay="100"
+              colors="primary:#66dac1,secondary:#ebe6ef"
+              style={{width:"100%", height:"100%", objectFit:"cover"}}>
+            </lord-icon>
+          </BottomImageContainer>
+          <BottomTitle>Kabar</BottomTitle>
+        </BottomItem>
+        <BottomItem to="/" className='link'>
+          <BottomImageContainer>
+            <lord-icon
+              src="https://cdn.lordicon.com/dxoycpzg.json"
+              trigger="morph"
+              state="morph"
+              colors="primary:#66dac1,secondary:#ebe6ef"
+              style={{width:"100%", height:"100%", objectFit:"cover"}}>
+            </lord-icon>
+          </BottomImageContainer>
+          <BottomTitle>Pelajari</BottomTitle>
+        </BottomItem>
       </Bottom>
     </Container>
   )

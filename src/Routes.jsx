@@ -21,7 +21,7 @@ function App() {
             {/* Learn Articles */}
             <Route path="/pelajari/artikel-1" element={<Article1 />} />
           </Routes>
-          <Footer />
+          {/* <Footer /> */}
         </BrowserRouter>
       </div>
       {/* Small Device */}
