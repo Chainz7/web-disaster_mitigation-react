@@ -248,7 +248,6 @@ function One() {
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
-    z-index: 20;
   `
   const SubTitleContainer = styled.div`
     width: 11rem;

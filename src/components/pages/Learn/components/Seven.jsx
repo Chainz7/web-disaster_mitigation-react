@@ -204,7 +204,6 @@ function Seven() {
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
-    z-index: 99;
   `
   const SubTitleContainer = styled.div`
     width: 11rem;
