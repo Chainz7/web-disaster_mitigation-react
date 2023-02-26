@@ -103,7 +103,7 @@ function Left() {
   const opacityIn = {
     whileInView: {
       opacity: [0, 1],
-      transit1n: {
+      transition: {
         duration: 1,
         ease: 'easeInOut'
       }

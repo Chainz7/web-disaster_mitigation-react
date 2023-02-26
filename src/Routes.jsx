@@ -14,14 +14,17 @@ function App() {
         <BrowserRouter>
           <Navbar />
           <Routes>
+            {/* Main */}
             <Route path="/kabar" element={<News />} />
             <Route path="/peta" element={<Map />} />
             <Route path="/" element={<Learn />} />
+            {/* Learn Articles */}
             <Route path="/pelajari/artikel-1" element={<Article1 />} />
           </Routes>
-          {/* <Footer /> */}
+          <Footer />
         </BrowserRouter>
       </div>
+      {/* Small Device */}
       <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 1, ease: 'easeInOut' }}>
         <div className="app-device">
           <lord-icon

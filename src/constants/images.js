@@ -13,16 +13,10 @@ import learnIcon1 from '../assets/pages/learnIcon1.png';
 import learnIcon2 from '../assets/pages/learnIcon2.png';
 import learnIcon3 from '../assets/pages/learnIcon3.png';
 import learnIcon4 from '../assets/pages/learnIcon4.png';
-// import learnIcon5 from '../assets/pages/learnIcon5.png';
-// import learnIcon6 from '../assets/pages/learnIcon6.png';
-// import learnIcon7 from '../assets/pages/learnIcon7.png';
 import learnIcon8 from '../assets/pages/learnIcon8.png';
 import learnIcon9 from '../assets/pages/learnIcon9.png';
-// import learnIcon10 from '../assets/pages/learnIcon10.png';
-// import learnIcon11 from '../assets/pages/learnIcon11.png';
-// import learnIcon12 from '../assets/pages/learnIcon12.png';
-// import learnIcon13 from '../assets/pages/learnIcon13.png';
-// import learnIcon14 from '../assets/pages/learnIcon14.png';
+import team from '../assets/navbar/team.png';
+import um from '../assets/navbar/um.png';
 
 export default {
  logo,
@@ -40,14 +34,8 @@ export default {
  learnIcon2,
  learnIcon3,
  learnIcon4,
-//  learnIcon5,
-//  learnIcon6,
-//  learnIcon7,
  learnIcon8,
  learnIcon9,
-//  learnIcon10,
-//  learnIcon11,
-//  learnIcon12,
-//  learnIcon13,
-//  learnIcon14,
+ team,
+ um
 };
