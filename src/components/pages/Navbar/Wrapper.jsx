@@ -7,7 +7,7 @@ import Top from './Top'
 import Bottom from './Bottom'
 
 function Wrapper() {
-  const Container = styled(motion.div)`
+  const Container = styled.div`
     width: 100%;
     height: auto;
     display: grid;
@@ -16,7 +16,7 @@ function Wrapper() {
     margin-top: .5rem;
   `
   return (
-    <Container whileInView={{ opacity: [0, 1] }} transition={{ duration: 1, ease: 'easeInOut' }}>
+    <Container>
       <Top />
       <Bottom />
     </Container>

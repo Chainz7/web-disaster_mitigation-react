@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
@@ -17,9 +17,9 @@ function Right() {
     align-items: center;
     padding-top: .5rem;
     padding-bottom: .6rem;
-    z-index: 1;
+    z-index: 10;
   `
-  const Wrapper = styled.div`
+  const Wrapper = styled(motion.div)`
     width: auto;
     height: 100%;
     display: flex;
@@ -34,6 +34,7 @@ function Right() {
     border-left: 1px solid rgba(210, 215, 211, 0.5);
     border-right: 1px solid rgba(210, 215, 211, 0.5);
     box-shadow: 0 2px 4px 0 rgba(210, 215, 211, 0.5); 
+    z-index: 99;
   `
   const ItemContainer = styled(Link)`
     width: auto;
@@ -71,25 +72,47 @@ function Right() {
   const scaleIn = {
     whileInView: {
       scale: [0, 1],
-      opacity: [0, 1],
+      opacity: [1, 1],
       transition: {
         duration: .7,
-        ease: 'easeInOut'
+        ease: 'easeIn'
       }
     }
   }
   const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
+  const [isFixed, setIsFixed] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollDistance = window.scrollY;
+      setIsFixed(scrollDistance > 100);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
     <Container>
-      <Wrapper>
+      <Wrapper style={{ 
+        position: isFixed ? 'fixed' : 'static',
+        height: isFixed ? '3rem' : '100%',
+        top: isFixed? 0 : 'auto'
+      }}
+        variant={isSmallScreen ? opacityIn : opacityIn}
+        whileInView={isSmallScreen ? opacityIn.whileInView : opacityIn.whileInView}
+        isSmallScreen={isSmallScreen}
+      >
         <ItemContainer to="/kabar" className='link'>
           <LogoContainer variant={isSmallScreen ? opacityIn : scaleIn}
                 whileInView={isSmallScreen ? opacityIn.whileInView : scaleIn.whileInView}
                 isSmallScreen={isSmallScreen}>
             <lord-icon
                   src="https://cdn.lordicon.com/iqocwzif.json"
-                  trigger="loop"
-                  delay="500"
+                  trigger="loop-on-hover"
+                  delay="100"
                   colors="primary:#66dac1,secondary:#ebe6ef"
               style={{width:"100%", height:"100%", objectFit:"cover"}}>
             </lord-icon>
@@ -97,6 +120,22 @@ function Right() {
           <ItemTitle variant={isSmallScreen ? opacityIn : scaleIn}
                 whileInView={isSmallScreen ? opacityIn.whileInView : scaleIn.whileInView}
                 isSmallScreen={isSmallScreen}>Kabar</ItemTitle>
+        </ItemContainer>
+        <ItemContainer to="/peta" className='link'>
+          <LogoContainer variant={isSmallScreen ? opacityIn : scaleIn}
+                whileInView={isSmallScreen ? opacityIn.whileInView : scaleIn.whileInView}
+                isSmallScreen={isSmallScreen}>
+            <lord-icon
+              src="https://cdn.lordicon.com/oaflahpk.json"
+              trigger="loop"
+              delay="500"
+              colors="primary:#66DAC1"
+              style={{width:"100%", height:"100%", objectFit:"cover"}}>
+            </lord-icon>
+          </LogoContainer>
+          <ItemTitle variant={isSmallScreen ? opacityIn : scaleIn}
+                whileInView={isSmallScreen ? opacityIn.whileInView : scaleIn.whileInView}
+                isSmallScreen={isSmallScreen}>Peta</ItemTitle>
         </ItemContainer>
         <ItemContainer to="/" className='link'>
           <LogoContainer variant={isSmallScreen ? opacityIn : scaleIn}
@@ -113,22 +152,6 @@ function Right() {
           <ItemTitle variant={isSmallScreen ? opacityIn : scaleIn}
                 whileInView={isSmallScreen ? opacityIn.whileInView : scaleIn.whileInView}
                 isSmallScreen={isSmallScreen}>Pelajari</ItemTitle>
-        </ItemContainer>
-        <ItemContainer to="/peta" className='link'>
-          <LogoContainer variant={isSmallScreen ? opacityIn : scaleIn}
-                whileInView={isSmallScreen ? opacityIn.whileInView : scaleIn.whileInView}
-                isSmallScreen={isSmallScreen}>
-            <lord-icon
-              src="https://cdn.lordicon.com/oaflahpk.json"
-              trigger="loop-on-hover"
-              delay="100"
-              colors="primary:#66DAC1"
-              style={{width:"100%", height:"100%", objectFit:"cover"}}>
-            </lord-icon>
-          </LogoContainer>
-          <ItemTitle variant={isSmallScreen ? opacityIn : scaleIn}
-                whileInView={isSmallScreen ? opacityIn.whileInView : scaleIn.whileInView}
-                isSmallScreen={isSmallScreen}>Peta</ItemTitle>
         </ItemContainer>
       </Wrapper>
     </Container>

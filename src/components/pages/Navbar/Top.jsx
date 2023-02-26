@@ -69,32 +69,10 @@ function Left() {
       }
     }
   }
-  const leftIn = {
-    whileInView: {
-      x: [-50, 0],
-      scale: [1, 1],
-      opacity: [0, 1],
-      transition: {
-        duration: .7,
-        ease: 'easeInOut'
-      }
-    }
-  }
-  const rightIn = {
-    whileInView: {
-      x: [50, 0],
-      scale: [1, 1],
-      opacity: [0, 1],
-      transition: {
-        duration: .7,
-        ease: 'easeInOut'
-      }
-    }
-  }
   const bottomIn = {
     whileInView: {
-      y: [50, 0],
-      scale: [1, 1],
+      y: [30, 0],
+      scale: [0, 1],
       opacity: [0, 1],
       transition: {
         duration: .7,
@@ -105,16 +83,16 @@ function Left() {
   const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
   return (
     <Container>
-      <Top variant={isSmallScreen ? bottomIn : leftIn}
-          whileInView={isSmallScreen ? bottomIn.whileInView : leftIn.whileInView}
+      <Top variant={isSmallScreen ? bottomIn : opacityIn}
+          whileInView={isSmallScreen ? bottomIn.whileInView : opacityIn.whileInView}
           isSmallScreen={isSmallScreen}>
         <LogoContainer>
           <Logo src={img.logo}/>
         </LogoContainer>
         <Title>SiBena</Title>
       </Top>
-      <Bottom variant={isSmallScreen ? bottomIn : rightIn}
-          whileInView={isSmallScreen ? bottomIn.whileInView : rightIn.whileInView}
+      <Bottom variant={isSmallScreen ? bottomIn : opacityIn}
+          whileInView={isSmallScreen ? bottomIn.whileInView : opacityIn.whileInView}
           isSmallScreen={isSmallScreen}>
         <Subtitle>Sigap&nbsp;<SubtitleSpan>Bencana</SubtitleSpan>&nbsp;Alam</Subtitle>
       </Bottom>
