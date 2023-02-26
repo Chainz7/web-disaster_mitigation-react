@@ -181,7 +181,7 @@ function Left() {
               src="https://cdn.lordicon.com/iqocwzif.json"
               trigger="loop-on-hover"
               delay="100"
-              colors="primary:#66dac1,secondary:#ebe6ef"
+              colors="primary:#66DAC1"
               style={{width:"100%", height:"100%", objectFit:"cover"}}>
             </lord-icon>
           </BottomImageContainer>
@@ -205,7 +205,7 @@ function Left() {
               src="https://cdn.lordicon.com/dxoycpzg.json"
               trigger="morph"
               state="morph"
-              colors="primary:#66dac1,secondary:#ebe6ef"
+              colors="primary:#f24c00,secondary:#646e78,tertiary:#66dac1,quaternary:#ebe6ef,quinary:#f9c9c0"
               style={{width:"100%", height:"100%", objectFit:"cover"}}>
             </lord-icon>
           </BottomImageContainer>
