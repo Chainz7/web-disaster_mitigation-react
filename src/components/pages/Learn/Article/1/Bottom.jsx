@@ -74,20 +74,6 @@ function Bottom() {
       padding: .5rem;
     }
   `
-  const ItemBackContainer = styled(motion.div)`
-    width: 2rem;
-    height: 2rem;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  `
-  const ItemBack = styled.img`
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-  `
   const ItemImageContainer = styled(motion.div)`
     width: 2rem;
     height: 100%;
@@ -103,6 +89,7 @@ function Bottom() {
     object-fit: cover;
   `
   const ItemTitle = styled(motion.span)`
+   text-align: center;
     font-weight: 500;
     font-size: 16px;
     @media (max-width: 542px) {
@@ -139,12 +126,9 @@ function Bottom() {
         <ItemContainer>
           <Title variant={isSmallScreen ? opacityIn : bottomIn}
                 whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
-                isSmallScreen={isSmallScreen}>Sebelumnya</Title>
+                isSmallScreen={isSmallScreen}>Saat ini</Title>
           <Link to="/pelajari/artikel-1" className='link'>
             <ItemWrapper variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
-              {/* <ItemBackContainer>
-                <ItemBack src={img.learn1}/>
-              </ItemBackContainer> */}
               <ItemImageContainer variant={isSmallScreen ? opacityIn : bottomIn}
                   whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
                   isSmallScreen={isSmallScreen}>
@@ -152,7 +136,7 @@ function Bottom() {
               </ItemImageContainer>
               <ItemTitle className='title-hover' variant={isSmallScreen ? opacityIn : bottomIn}
                   whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
-                  isSmallScreen={isSmallScreen}>Lorem ipsum dolor</ItemTitle>
+                  isSmallScreen={isSmallScreen}>Bencana</ItemTitle>
             </ItemWrapper>
           </Link>
         </ItemContainer>
@@ -160,19 +144,16 @@ function Bottom() {
           <Title variant={isSmallScreen ? opacityIn : bottomIn}
                 whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
                 isSmallScreen={isSmallScreen}>Selanjutnya</Title>
-          <Link to="/pelajari/artikel-2" className='link'>
+          <Link to="/pelajari/artikel-5" className='link'>
             <ItemWrapper variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
               <ItemImageContainer variant={isSmallScreen ? opacityIn : bottomIn}
                   whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
                   isSmallScreen={isSmallScreen}>
-                <ItemImage src={img.learn1}/>
+                <ItemImage src={img.learn2}/>
               </ItemImageContainer>
               <ItemTitle className='title-hover' variant={isSmallScreen ? opacityIn : bottomIn}
                   whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
-                  isSmallScreen={isSmallScreen}>Lorem ipsum dolor</ItemTitle>
-              {/* <ItemBackContainer>
-                <ItemBack src={img.learn1}/>
-              </ItemBackContainer> */}
+                  isSmallScreen={isSmallScreen}>Kapan Bencana Terjadi ?</ItemTitle>
             </ItemWrapper>
           </Link>
         </ItemContainer>

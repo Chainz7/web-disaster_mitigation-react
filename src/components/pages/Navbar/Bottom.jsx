@@ -18,6 +18,7 @@ function Right() {
     padding-top: .5rem;
     padding-bottom: .6rem;
     z-index: 10;
+    margin-top: -.5rem;
     @media (max-width: 610px) {
       display: flex;
     }

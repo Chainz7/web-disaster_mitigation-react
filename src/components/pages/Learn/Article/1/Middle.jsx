@@ -5,20 +5,12 @@ import { Link } from 'react-router-dom'
 import lottie from 'lottie-web';
 import { defineElement } from 'lord-icon-element';
 
-import Top from './Top'
-import Middle from './Middle'
-import Bottom from './Bottom'
 import { vari, img } from '../../../../../constants'
 
 defineElement(lottie.loadAnimation);
-function Wrapper() {
-  const Container = styled.div`
-    width: 100%;
-    height: 100%;
-    display: grid;
-    justify-items: center;
-    align-items: start;
-    gap: 1rem;
+function Top() {
+  const Container = styled(motion.div)`
+    
   `
   const opacityIn = {
     whileInView: {
@@ -40,14 +32,11 @@ function Wrapper() {
       }
     }
   }
-  const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
   return (
     <Container>
-      <Top /> { /* Ini nanti memunculkan isi text saja, jadi nanti ubah posisinya */ }
-      <Middle /> { /* Ini nanti memunculkan isi text saja, jadi nanti ubah posisinya */ }
-      <Bottom /> { /* Ini nanti memunculkan isi text saja, jadi nanti ubah posisinya */ }
+      Article1
     </Container>
   )
 }
 
-export default Wrapper
+export default Top
