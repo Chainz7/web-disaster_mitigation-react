@@ -8,7 +8,7 @@ import { defineElement } from 'lord-icon-element';
 import { vari, img } from '../../../../../constants'
 
 defineElement(lottie.loadAnimation);
-function Article() {
+function Top() {
   const Container = styled(motion.div)`
 
   `
@@ -39,4 +39,4 @@ function Article() {
   )
 }
 
-export default Article
+export default Top

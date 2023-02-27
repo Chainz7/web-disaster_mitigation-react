@@ -14,6 +14,7 @@ function Wrapper() {
     justify-items: center;
     align-items: flex-start;
     margin-top: .5rem;
+    margin-bottom: .5rem;
   `
   return (
     <Container>
