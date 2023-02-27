@@ -77,6 +77,7 @@ function Left() {
     justify-content: center;
     border-bottom: 1px solid rgba(210, 215, 211, 0.5);
     box-shadow: 0 2px 4px 0 rgba(210, 215, 211, 0.5); 
+    background-color: white;
   `
   const Wrapper = styled.div`
     width: 1250px;
@@ -85,7 +86,6 @@ function Left() {
     justify-content: center;
     align-items: center;
     padding-bottom: .5rem;
-    
     background-color: white;
     z-index: 100;
     @media (max-width: 1200px) {
