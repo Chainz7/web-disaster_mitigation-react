@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
@@ -104,8 +104,28 @@ function Top() {
     }
   }
   const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
+  const [isFixed, setIsFixed] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollDistance = window.scrollY;
+      setIsFixed(scrollDistance > 75);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
-    <Container>
+    <Container style={{ 
+        position: isFixed ? 'fixed' : 'static',
+        top: isFixed? 0 : 'auto',
+        paddingTop: isFixed? '.5rem' : '',
+        zIndex: isFixed? 1000 : 0,
+        backgroundColor: isFixed? 'white' : '',
+      }}>
       <Wrapper>
         <Link to="/pelajari/artikel-1" className='link'>
           <ItemContainer variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
