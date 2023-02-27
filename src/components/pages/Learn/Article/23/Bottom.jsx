@@ -50,13 +50,13 @@ function Bottom() {
         <ItemContainer>
           <Title variant={isSmallScreen ? opacityIn : bottomIn}
                 whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
-                isSmallScreen={isSmallScreen}>Selanjutnya</Title>
+                isSmallScreen={isSmallScreen}>Ke Topik Awal</Title>
           <Link to="/pelajari/artikel-1" className='link'>
             <ItemWrapper variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
               <ItemImageContainer variant={isSmallScreen ? opacityIn : bottomIn}
                   whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
                   isSmallScreen={isSmallScreen}>
-                <ItemImage src={img.learn8}/>
+                <ItemImage src={img.learn1}/>
               </ItemImageContainer>
               <ItemTitle className='title-hover' variant={isSmallScreen ? opacityIn : bottomIn}
                   whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
