@@ -33,17 +33,17 @@ function Bottom() {
         <ItemContainer>
           <Title variant={isSmallScreen ? opacityIn : bottomIn}
                 whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
-                isSmallScreen={isSmallScreen}>Ke Topik Akhir</Title>
-          <Link to="/pelajari/artikel-21" className='link'>
+                isSmallScreen={isSmallScreen}>Saat ini</Title>
+          <Link to="/pelajari/artikel-10" className='link'>
             <ItemWrapper variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
               <ItemImageContainer variant={isSmallScreen ? opacityIn : bottomIn}
                   whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
                   isSmallScreen={isSmallScreen}>
-                <ItemImage src={img.learn8}/>
+                <ItemImage src={img.learn4}/>
               </ItemImageContainer>
               <ItemTitle className='title-hover' variant={isSmallScreen ? opacityIn : bottomIn}
                   whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
-                  isSmallScreen={isSmallScreen}>8. Bencana</ItemTitle>
+                  isSmallScreen={isSmallScreen}>4. Sebelum Bencana</ItemTitle>
             </ItemWrapper>
           </Link>
         </ItemContainer>
@@ -51,16 +51,16 @@ function Bottom() {
           <Title variant={isSmallScreen ? opacityIn : bottomIn}
                 whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
                 isSmallScreen={isSmallScreen}>Selanjutnya</Title>
-          <Link to="/pelajari/artikel-5" className='link'>
+          <Link to="/pelajari/artikel-15" className='link'>
             <ItemWrapper variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
               <ItemImageContainer variant={isSmallScreen ? opacityIn : bottomIn}
                   whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
                   isSmallScreen={isSmallScreen}>
-                <ItemImage src={img.learn2}/>
+                <ItemImage src={img.learn6}/>
               </ItemImageContainer>
               <ItemTitle className='title-hover' variant={isSmallScreen ? opacityIn : bottomIn}
                   whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
-                  isSmallScreen={isSmallScreen}>2. Kapan Bencana Terjadi ?</ItemTitle>
+                  isSmallScreen={isSmallScreen}>6. Pada Saat Bencana Apa Saja yang Harus Dilakukan ?</ItemTitle>
             </ItemWrapper>
           </Link>
         </ItemContainer>

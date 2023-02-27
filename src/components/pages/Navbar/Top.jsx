@@ -47,22 +47,19 @@ function Left() {
         <Subtitle>Sigap&nbsp;<SubtitleSpan>Bencana</SubtitleSpan>&nbsp;Alam</Subtitle>
         <BottomItem to="/peta" className='link'>
           <BottomImageContainer>
-            <lord-icon src="https://cdn.lordicon.com/iqocwzif.json" trigger="loop-on-hover" delay="100" colors="primary:#66DAC1" style={{width:"100%", height:"100%", objectFit:"cover"}}>
-            </lord-icon>
+            <lord-icon src="https://cdn.lordicon.com/oaflahpk.json" trigger="loop-on-hover" delay="100" colors="primary:#66dac1,secondary:#ebe6ef" style={{width:"100%", height:"100%", objectFit:"cover"}}></lord-icon>
           </BottomImageContainer>
           <BottomTitle>Peta</BottomTitle>
         </BottomItem>
         <BottomItem to="/kabar" className='link'>
           <BottomImageContainer>
-            <lord-icon src="https://cdn.lordicon.com/oaflahpk.json" trigger="loop-on-hover" delay="100" colors="primary:#66dac1,secondary:#ebe6ef" style={{width:"100%", height:"100%", objectFit:"cover"}}>
-            </lord-icon>
+          <lord-icon src="https://cdn.lordicon.com/iqocwzif.json" trigger="loop-on-hover" delay="100" colors="primary:#66DAC1" style={{width:"100%", height:"100%", objectFit:"cover"}}></lord-icon>
           </BottomImageContainer>
           <BottomTitle>Kabar</BottomTitle>
         </BottomItem>
         <BottomItem to="/" className='link'>
           <BottomImageContainer>
-            <lord-icon src="https://cdn.lordicon.com/dxoycpzg.json" trigger="morph" state="morph" colors="primary:#f24c00,secondary:#646e78,tertiary:#66dac1,quaternary:#ebe6ef,quinary:#f9c9c0" style={{width:"100%", height:"100%", objectFit:"cover"}}>
-            </lord-icon>
+            <lord-icon src="https://cdn.lordicon.com/dxoycpzg.json" trigger="morph" state="morph" colors="primary:#f24c00,secondary:#646e78,tertiary:#66dac1,quaternary:#ebe6ef,quinary:#f9c9c0" style={{width:"100%", height:"100%", objectFit:"cover"}}></lord-icon>
           </BottomImageContainer>
           <BottomTitle>Pelajari</BottomTitle>
         </BottomItem>

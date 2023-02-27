@@ -49,7 +49,7 @@ function Top() {
       backgroundColor: isFixed? 'white' : '',
     }}>
       <Wrapper>
-        <Link to="/pelajari/artikel-1" className='link'>
+        <Link to="/pelajari/artikel-5" className='link'>
           <ItemContainer variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
             <ImageContainer variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
               <Image src={img.learnIcon1} />
@@ -59,7 +59,7 @@ function Top() {
             </ItemTitle>
           </ItemContainer>
         </Link>
-        <Link to="/pelajari/artikel-2" className='link'>
+        <Link to="/pelajari/artikel-6" className='link'>
           <ItemContainer variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
             <ImageContainer variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
               <Image src={img.learnIcon2} />
@@ -69,23 +69,13 @@ function Top() {
             </ItemTitle>
           </ItemContainer>
         </Link>
-        <Link to="/pelajari/artikel-3" className='link'>
+        <Link to="/pelajari/artikel-7" className='link'>
           <ItemContainer variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
             <ImageContainer variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
               <Image src={img.learnIcon3} />
             </ImageContainer>
             <ItemTitle className='title-hover' variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
               Gunung Meletus
-            </ItemTitle>
-          </ItemContainer>
-        </Link>
-        <Link to="/pelajari/artikel-4" className='link'>
-          <ItemContainer variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
-            <ImageContainer variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-              <Image src={img.learnIcon0} />
-            </ImageContainer>
-            <ItemTitle className='title-hover' variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-              Bisa Terjadi Bersamaan ?
             </ItemTitle>
           </ItemContainer>
         </Link>
