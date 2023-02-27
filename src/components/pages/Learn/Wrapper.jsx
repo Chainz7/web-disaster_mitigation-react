@@ -1,10 +1,23 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { vari, img } from '../../../constants'
+import { vari } from '../../../constants'
 import { One, Two, Three, Four, Five, Six, Seven, Eight } from './components'
 
 function Wrapper() {
+  return (
+    <Container>
+      <One />
+      <Two />
+      <Three />
+      <Four />
+      <Five />
+      <Six />
+      <Seven />
+      <Eight />
+    </Container>
+  )
+}
   const Container = styled.div`
     display: grid;
     justify-items: center;
@@ -19,18 +32,5 @@ function Wrapper() {
       gap: 1rem;
     }
   `
-  return (
-    <Container>
-      <One />
-      <Two />
-      <Three />
-      <Four />
-      <Five />
-      <Six />
-      <Seven />
-      <Eight />
-    </Container>
-  )
-}
 
 export default Wrapper

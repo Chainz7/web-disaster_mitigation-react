@@ -2,13 +2,77 @@ import React from 'react'
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-import lottie from 'lottie-web';
-import { defineElement } from 'lord-icon-element';
 
 import { vari, img } from '../../../../constants'
 
-defineElement(lottie.loadAnimation);
 function Four() {
+  const opacityIn = {
+    whileInView: {
+      opacity: [0, 1],
+      transition: {
+        duration: .7,
+        ease: 'easeInOut'
+      }
+    }
+  }
+  const bottomIn = {
+    whileInView: {
+      y: [30, 0],
+      scale: [1, 1],
+      opacity: [0, 1],
+      transition: {
+        duration: .7,
+        ease: 'easeInOut'
+      }
+    }
+  }
+  const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
+  return (
+    <Container variant={opacityIn} whileInView={opacityIn.whileInView}>
+      <Order>4</Order>
+      <MainContainer>
+        <ImageContainer variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
+          <Image src={img.learn4}/>
+          <TitleContainer>
+            <Title variant={bottomIn} whileInView={bottomIn.whileInView}>Dampak Bencana Alam</Title>
+          </TitleContainer>
+        </ImageContainer>
+      </MainContainer>
+      <SubContainer1 variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
+        <Link to="/pelajari/artikel-10" className='link'>
+          <SubImageContainer variant={isSmallScreen ? opacityIn : bottomIn}
+              whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
+              isSmallScreen={isSmallScreen}>
+            <SubImage src={img.learnIcon8}/>
+          </SubImageContainer>
+        </Link>
+        <Link to="/pelajari/artikel-10" className='link'>
+          <SubTitleContainer>
+            <SubTitle className='subtitle-hover' variant={isSmallScreen ? opacityIn : bottomIn}
+              whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
+              isSmallScreen={isSmallScreen}>Bagi Masyarakat</SubTitle>
+          </SubTitleContainer>
+        </Link>
+      </SubContainer1>
+      <SubContainer4 variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
+        <Link to="/pelajari/artikel-11" className='link'>
+          <SubImageContainer variant={isSmallScreen ? opacityIn : bottomIn}
+              whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
+              isSmallScreen={isSmallScreen}>
+            <SubImage src={img.learnIcon9}/>
+          </SubImageContainer>
+        </Link>
+        <Link to="/pelajari/artikel-11" className='link'>
+          <SubTitleContainer>
+            <SubTitle className='subtitle-hover' variant={isSmallScreen ? opacityIn : bottomIn}
+              whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
+              isSmallScreen={isSmallScreen}>Bagi Pengunjung</SubTitle>
+          </SubTitleContainer>
+        </Link>
+      </SubContainer4>
+    </Container>
+  )
+}
   const Container = styled(motion.div)`
     width: 900px;
     height: 400px;
@@ -189,72 +253,4 @@ function Four() {
       font-size: 16px;
     }
   `
-  const opacityIn = {
-    whileInView: {
-      opacity: [0, 1],
-      transition: {
-        duration: .7,
-        ease: 'easeInOut'
-      }
-    }
-  }
-  const bottomIn = {
-    whileInView: {
-      y: [30, 0],
-      scale: [1, 1],
-      opacity: [0, 1],
-      transition: {
-        duration: .7,
-        ease: 'easeInOut'
-      }
-    }
-  }
-  const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
-  return (
-    <Container variant={opacityIn} whileInView={opacityIn.whileInView}>
-      <Order>4</Order>
-      <MainContainer>
-        <ImageContainer variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
-          <Image src={img.learn4}/>
-          <TitleContainer>
-            <Title variant={bottomIn} whileInView={bottomIn.whileInView}>Dampak Bencana Alam</Title>
-          </TitleContainer>
-        </ImageContainer>
-      </MainContainer>
-      <SubContainer1 variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
-        <Link to="/pelajari/artikel-10" className='link'>
-          <SubImageContainer variant={isSmallScreen ? opacityIn : bottomIn}
-              whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
-              isSmallScreen={isSmallScreen}>
-            <SubImage src={img.learnIcon8}/>
-          </SubImageContainer>
-        </Link>
-        <Link to="/pelajari/artikel-10" className='link'>
-          <SubTitleContainer>
-            <SubTitle className='subtitle-hover' variant={isSmallScreen ? opacityIn : bottomIn}
-              whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
-              isSmallScreen={isSmallScreen}>Bagi Masyarakat</SubTitle>
-          </SubTitleContainer>
-        </Link>
-      </SubContainer1>
-      <SubContainer4 variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
-        <Link to="/pelajari/artikel-11" className='link'>
-          <SubImageContainer variant={isSmallScreen ? opacityIn : bottomIn}
-              whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
-              isSmallScreen={isSmallScreen}>
-            <SubImage src={img.learnIcon9}/>
-          </SubImageContainer>
-        </Link>
-        <Link to="/pelajari/artikel-11" className='link'>
-          <SubTitleContainer>
-            <SubTitle className='subtitle-hover' variant={isSmallScreen ? opacityIn : bottomIn}
-              whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
-              isSmallScreen={isSmallScreen}>Bagi Pengunjung</SubTitle>
-          </SubTitleContainer>
-        </Link>
-      </SubContainer4>
-    </Container>
-  )
-}
-
 export default Four

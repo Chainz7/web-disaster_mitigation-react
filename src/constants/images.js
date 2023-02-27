@@ -19,23 +19,6 @@ import team from '../assets/navbar/team.png';
 import um from '../assets/navbar/um.png';
 
 export default {
- logo,
- background,
- learn1,
- learn2,
- learn3,
- learn4,
- learn5,
- learn6,
- learn7,
- learn8,
- learnIcon0,
- learnIcon1,
- learnIcon2,
- learnIcon3,
- learnIcon4,
- learnIcon8,
- learnIcon9,
- team,
- um
+ logo, background, learn1, learn2, learn3, learn4, learn5, learn6, learn7, learn8, learnIcon0, learnIcon1, learnIcon2, 
+ learnIcon3, learnIcon4, learnIcon8, learnIcon9, team, um
 };

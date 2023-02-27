@@ -2,13 +2,93 @@ import React from 'react'
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-import lottie from 'lottie-web';
-import { defineElement } from 'lord-icon-element';
 
 import { vari, img } from '../../../../constants'
 
-defineElement(lottie.loadAnimation);
 function Seven() {
+  const opacityIn = {
+    whileInView: {
+      opacity: [0, 1],
+      transition: {
+        duration: .7,
+        ease: 'easeInOut'
+      }
+    }
+  }
+  const bottomIn = {
+    whileInView: {
+      y: [30, 0],
+      scale: [1, 1],
+      opacity: [0, 1],
+      transition: {
+        duration: .7,
+        ease: 'easeInOut'
+      }
+    }
+  }
+  const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
+  return (
+    <Container variant={opacityIn} whileInView={opacityIn.whileInView}>
+      <Order>7</Order>
+      <MainContainer variant={opacityIn} whileInView={opacityIn.whileInView}>
+        <ImageContainer variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
+          <Image src={img.learn7}/>
+          <TitleContainer>
+            <Title variant={bottomIn} whileInView={bottomIn.whileInView}>Setelah Bencana Apa Saja yang Harus Dilakukan ?</Title>
+          </TitleContainer>
+        </ImageContainer>
+      </MainContainer>
+      <SubContainer1 variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
+        <Link to="/pelajari/artikel-18" className='link'>
+          <SubImageContainer variant={isSmallScreen ? opacityIn : bottomIn}
+              whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
+              isSmallScreen={isSmallScreen}>
+            <SubImage src={img.learnIcon1}/>
+          </SubImageContainer>
+        </Link>
+        <Link to="/pelajari/artikel-18" className='link'>
+          <SubTitleContainer>
+            <SubTitle className='subtitle-hover' variant={isSmallScreen ? opacityIn : bottomIn}
+              whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
+              isSmallScreen={isSmallScreen}>Banjir Bandang</SubTitle>
+          </SubTitleContainer>
+        </Link>
+      </SubContainer1>
+      <SubContainer3 variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
+        <Link to="/pelajari/artikel-19" className='link'>
+          <SubImageContainer variant={isSmallScreen ? opacityIn : bottomIn}
+              whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
+              isSmallScreen={isSmallScreen}>
+            <SubImage src={img.learnIcon2}/>
+          </SubImageContainer>
+        </Link>
+        <Link to="/pelajari/artikel-19" className='link'>
+          <SubTitleContainer>
+            <SubTitle className='subtitle-hover' variant={isSmallScreen ? opacityIn : bottomIn}
+              whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
+              isSmallScreen={isSmallScreen}>Tanah Longsor</SubTitle>
+          </SubTitleContainer>
+        </Link>
+      </SubContainer3>
+      <SubContainer4 variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
+        <Link to="/pelajari/artikel-20" className='link'>
+          <SubImageContainer variant={isSmallScreen ? opacityIn : bottomIn}
+              whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
+              isSmallScreen={isSmallScreen}>
+            <SubImage src={img.learnIcon3}/>
+          </SubImageContainer>
+        </Link>
+        <Link to="/pelajari/artikel-20" className='link'>
+          <SubTitleContainer>
+            <SubTitle className='subtitle-hover' variant={isSmallScreen ? opacityIn : bottomIn}
+              whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
+              isSmallScreen={isSmallScreen}>Gunung Meletus</SubTitle>
+          </SubTitleContainer>
+        </Link>
+      </SubContainer4>
+    </Container>
+  )
+}
   const Container = styled(motion.div)`
     width: 900px;
     height: 400px;
@@ -222,88 +302,5 @@ function Seven() {
       font-size: 16px;
     }
   `
-  const opacityIn = {
-    whileInView: {
-      opacity: [0, 1],
-      transition: {
-        duration: .7,
-        ease: 'easeInOut'
-      }
-    }
-  }
-  const bottomIn = {
-    whileInView: {
-      y: [30, 0],
-      scale: [1, 1],
-      opacity: [0, 1],
-      transition: {
-        duration: .7,
-        ease: 'easeInOut'
-      }
-    }
-  }
-  const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
-  return (
-    <Container variant={opacityIn} whileInView={opacityIn.whileInView}>
-      <Order>7</Order>
-      <MainContainer variant={opacityIn} whileInView={opacityIn.whileInView}>
-        <ImageContainer variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
-          <Image src={img.learn7}/>
-          <TitleContainer>
-            <Title variant={bottomIn} whileInView={bottomIn.whileInView}>Setelah Bencana Apa Saja yang Harus Dilakukan ?</Title>
-          </TitleContainer>
-        </ImageContainer>
-      </MainContainer>
-      <SubContainer1 variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
-        <Link to="/pelajari/artikel-18" className='link'>
-          <SubImageContainer variant={isSmallScreen ? opacityIn : bottomIn}
-              whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
-              isSmallScreen={isSmallScreen}>
-            <SubImage src={img.learnIcon1}/>
-          </SubImageContainer>
-        </Link>
-        <Link to="/pelajari/artikel-18" className='link'>
-          <SubTitleContainer>
-            <SubTitle className='subtitle-hover' variant={isSmallScreen ? opacityIn : bottomIn}
-              whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
-              isSmallScreen={isSmallScreen}>Banjir Bandang</SubTitle>
-          </SubTitleContainer>
-        </Link>
-      </SubContainer1>
-      <SubContainer3 variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
-        <Link to="/pelajari/artikel-19" className='link'>
-          <SubImageContainer variant={isSmallScreen ? opacityIn : bottomIn}
-              whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
-              isSmallScreen={isSmallScreen}>
-            <SubImage src={img.learnIcon2}/>
-          </SubImageContainer>
-        </Link>
-        <Link to="/pelajari/artikel-19" className='link'>
-          <SubTitleContainer>
-            <SubTitle className='subtitle-hover' variant={isSmallScreen ? opacityIn : bottomIn}
-              whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
-              isSmallScreen={isSmallScreen}>Tanah Longsor</SubTitle>
-          </SubTitleContainer>
-        </Link>
-      </SubContainer3>
-      <SubContainer4 variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
-        <Link to="/pelajari/artikel-20" className='link'>
-          <SubImageContainer variant={isSmallScreen ? opacityIn : bottomIn}
-              whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
-              isSmallScreen={isSmallScreen}>
-            <SubImage src={img.learnIcon3}/>
-          </SubImageContainer>
-        </Link>
-        <Link to="/pelajari/artikel-20" className='link'>
-          <SubTitleContainer>
-            <SubTitle className='subtitle-hover' variant={isSmallScreen ? opacityIn : bottomIn}
-              whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
-              isSmallScreen={isSmallScreen}>Gunung Meletus</SubTitle>
-          </SubTitleContainer>
-        </Link>
-      </SubContainer4>
-    </Container>
-  )
-}
 
 export default Seven

@@ -1,12 +1,17 @@
 import React from 'react'
 import styled from 'styled-components'
-import { motion } from 'framer-motion'
 
-import { vari, img } from '../../../constants'
 import Top from './Top'
 import Bottom from './Bottom'
 
 function Wrapper() {
+  return (
+    <Container>
+      <Top />
+      <Bottom />
+    </Container>
+  )
+}
   const Container = styled.div`
     width: 100%;
     height: auto;
@@ -15,12 +20,5 @@ function Wrapper() {
     align-items: flex-start;
     margin-top: .5rem;
   `
-  return (
-    <Container>
-      <Top />
-      <Bottom />
-    </Container>
-  )
-}
 
 export default Wrapper
