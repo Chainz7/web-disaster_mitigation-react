@@ -10,7 +10,7 @@ import { vari, img } from '../../../constants'
 defineElement(lottie.loadAnimation);
 function Left() {
   const Container = styled.div`
-    width: 100%;
+    width: 1250px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -20,6 +20,9 @@ function Left() {
     box-shadow: 0 2px 4px 0 rgba(210, 215, 211, 0.5); 
     background-color: white;
     z-index: 100;
+    @media (max-width: 1100px) {
+      width: 100%;
+    }
     @media (max-width: 610px) {
       width: 100%;
       height: 100%;
