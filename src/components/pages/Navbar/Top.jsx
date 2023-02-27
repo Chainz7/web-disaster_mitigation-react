@@ -10,17 +10,23 @@ import { vari, img } from '../../../constants'
 defineElement(lottie.loadAnimation);
 function Left() {
   const Container = styled.div`
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgba(210, 215, 211, 0.5);
+    box-shadow: 0 2px 4px 0 rgba(210, 215, 211, 0.5); 
+  `
+  const Wrapper = styled.div`
     width: 1250px;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: .5rem;
-    border-bottom: 1px solid rgba(210, 215, 211, 0.5);
-    box-shadow: 0 2px 4px 0 rgba(210, 215, 211, 0.5); 
+    
     background-color: white;
     z-index: 100;
-    @media (max-width: 1100px) {
+    @media (max-width: 1200px) {
       width: 100%;
     }
     @media (max-width: 610px) {
@@ -160,6 +166,7 @@ function Left() {
   const isSmallScreen = window.matchMedia("(max-width: 600px)").matches;
   return (
     <Container>
+      <Wrapper>
         <Top variant={isSmallScreen ? bottomIn : opacityIn}
             whileInView={isSmallScreen ? bottomIn.whileInView : opacityIn.whileInView}
             whileHover={{ scale: 1.02 }} transition={{ duration: .4 }}
@@ -215,6 +222,7 @@ function Left() {
           <BottomTitle>Pelajari</BottomTitle>
         </BottomItem>
       </Bottom>
+      </Wrapper>
     </Container>
   )
 }

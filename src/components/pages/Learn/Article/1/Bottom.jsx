@@ -14,8 +14,8 @@ function Bottom() {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
     background-color: ${vari.articleBottom};
     border: 1px solid rgba(210, 215, 211, 0.5);
     box-shadow: 0 -2px 4px 0 rgba(210, 215, 211, 0.5); 
@@ -45,7 +45,7 @@ function Bottom() {
   `
   const Title = styled(motion.span)`
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
   `
   const ItemWrapper = styled(motion.div)`
     width: 90%;
@@ -65,7 +65,13 @@ function Bottom() {
       }  
     }
     @media (max-width: 650px) {
-      width: 82%;
+      width: 90%;
+    }
+    @media (max-width: 542px) {
+      padding: .75rem;
+    }
+    @media (max-width: 470px) {
+      padding: .5rem;
     }
   `
   const ItemBackContainer = styled(motion.div)`
@@ -102,7 +108,7 @@ function Bottom() {
     @media (max-width: 542px) {
       font-size: 14px;
     }
-    @media (max-width: 400PX) {
+    @media (max-width: 470PX) {
       font-size: 12px;
     }
   `
