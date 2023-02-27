@@ -46,6 +46,9 @@ function Bottom() {
   const Title = styled(motion.span)`
     font-weight: 500;
     font-size: 18px;
+    @media (max-width: 650px) {
+      text-align: center;
+    }
   `
   const ItemWrapper = styled(motion.div)`
     width: 90%;

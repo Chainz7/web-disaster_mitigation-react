@@ -14,7 +14,9 @@ function Top() {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    padding-top: .5rem;
     padding-bottom: .5rem;
+    border-top: 1px solid rgba(210, 215, 211, 0.5);
     border-bottom: 1px solid rgba(210, 215, 211, 0.5);
   `
   const Wrapper = styled.div`
@@ -76,8 +78,14 @@ function Top() {
     text-align: center;
     font-weight: 500;
     font-size: 15px;
-    @media (max-width: 460px) {
+    @media (max-width: 960px) {
       font-size: 14px;
+    }
+    @media (max-width: 760px) {
+      font-size: 13px;
+    }
+    @media (max-width: 460px) {
+      font-size: 12px;
     }
     @media (max-width: 403px) {
       display: none;
@@ -122,7 +130,6 @@ function Top() {
     <Container style={{ 
         position: isFixed ? 'fixed' : 'static',
         top: isFixed? 0 : 'auto',
-        paddingTop: isFixed? '.5rem' : '',
         zIndex: isFixed? 1000 : 0,
         backgroundColor: isFixed? 'white' : '',
       }}>
