@@ -29,13 +29,13 @@ function C11() {
   return (
     <>
       <ItemMiniTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Bencana
+        Dampak Bencana Alam
       </ItemMiniTitle>
       <ItemTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Banjir Bandang
+        Bagi Pengunjung
       </ItemTitle>
       <ItemSubTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ut doloremque odio architecto hic perferendis! Doloribus, sed laudantium. Enim nemo odit, temporibus non labore consectetur laudantium reprehenderit molestiae aut eum.
+      Coban Talun merupakan salah satu tempat wisata yang terkenal dengan keindahan alamnya, namun saat terjadi bencana, pengunjung tentu saja akan merasakan dampak yang cukup signifikan. Pertama-tama, pengunjung tidak dapat menikmati keindahan alam di sekitar Coban Talun karena tempat wisata harus ditutup untuk sementara waktu demi keamanan pengunjung.
       </ItemSubTitle>
       <ItemImageWrapper variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
         <ItemImageContainer>
@@ -43,10 +43,13 @@ function C11() {
         </ItemImageContainer>
       </ItemImageWrapper>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo minima suscipit possimus rem ipsum eaque laborum labore eligendi inventore amet quibusdam molestiae omnis aliquid, deserunt dignissimos quas ex esse dolorem hic beatae adipisci qui incidunt. Sequi adipisci facilis nesciunt dignissimos dolorem quasi suscipit consequatur accusamus veritatis soluta laudantium quos beatae, eius aliquid aliquam, quisquam autem maxime, nemo provident cum. Possimus dolore fuga quaerat molestias incidunt eligendi vero excepturi facilis velit quasi quos est alias iusto, sapiente ipsa enim eos quo magni inventore amet rem iste perferendis dolor. Nulla a quae, vel deserunt, esse quaerat dolorum voluptas nemo aperiam autem iusto?
+      Selain itu, terjadinya bencana di Coban Talun dapat membahayakan keselamatan pengunjung jika mereka masih berada di tempat wisata saat bencana terjadi. Namun, para petugas yang telah dilatih dengan baik siap untuk mengevakuasi pengunjung dari tempat wisata dengan cepat dan aman. Hal ini tentu saja dapat memberikan rasa aman bagi pengunjung yang mengunjungi Coban Talun saat terjadi bencana.
       </ItemPharagraph>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo minima suscipit possimus rem ipsum eaque laborum labore eligendi inventore amet quibusdam molestiae omnis aliquid, deserunt dignissimos quas ex esse dolorem hic beatae adipisci qui incidunt. Sequi adipisci facilis nesciunt dignissimos dolorem quasi suscipit consequatur accusamus veritatis soluta laudantium quos beatae, eius aliquid aliquam, quisquam autem maxime, nemo provident cum. Possimus dolore fuga quaerat molestias incidunt eligendi vero excepturi facilis velit quasi quos est alias iusto, sapiente ipsa enim eos quo magni inventore amet rem iste perferendis dolor. Nulla a quae, vel deserunt, esse quaerat dolorum voluptas nemo aperiam autem iusto?
+      Selain dampak yang dirasakan oleh pengunjung, terjadinya bencana di Coban Talun juga dapat berdampak pada keberlangsungan bisnis di sekitar area wisata. Para pedagang dan pengusaha yang mengandalkan kunjungan wisatawan dapat mengalami penurunan pendapatan karena tutupnya tempat wisata.
+      </ItemPharagraph>
+      <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
+      Oleh karena itu, penting bagi para pengunjung untuk selalu memperhatikan kondisi cuaca dan keadaan sekitar sebelum berkunjung ke Coban Talun, serta mengikuti instruksi dari petugas jika terjadi bencana di area wisata. Hal ini dapat membantu mengurangi dampak yang dirasakan oleh pengunjung dan membantu mempertahankan keberlangsungan bisnis di sekitar area wisata.
       </ItemPharagraph>
     </>
   )

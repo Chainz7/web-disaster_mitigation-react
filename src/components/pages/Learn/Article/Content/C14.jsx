@@ -29,13 +29,13 @@ function C14() {
   return (
     <>
       <ItemMiniTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Bencana
+        Sebelum Bencana
       </ItemMiniTitle>
       <ItemTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Banjir Bandang
+        Gunung Meletus
       </ItemTitle>
       <ItemSubTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ut doloremque odio architecto hic perferendis! Doloribus, sed laudantium. Enim nemo odit, temporibus non labore consectetur laudantium reprehenderit molestiae aut eum.
+      Gunung meletus adalah bencana alam yang sangat berbahaya dan dapat menimbulkan kerugian yang besar bagi kehidupan manusia, lingkungan dan ekonomi. Namun, walaupun kejadian meletusnya gunung tidak bisa diprediksi dengan pasti, kita dapat melakukan beberapa tindakan pencegahan dan persiapan untuk mengurangi dampak bencana tersebut.
       </ItemSubTitle>
       <ItemImageWrapper variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
         <ItemImageContainer>
@@ -43,10 +43,16 @@ function C14() {
         </ItemImageContainer>
       </ItemImageWrapper>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo minima suscipit possimus rem ipsum eaque laborum labore eligendi inventore amet quibusdam molestiae omnis aliquid, deserunt dignissimos quas ex esse dolorem hic beatae adipisci qui incidunt. Sequi adipisci facilis nesciunt dignissimos dolorem quasi suscipit consequatur accusamus veritatis soluta laudantium quos beatae, eius aliquid aliquam, quisquam autem maxime, nemo provident cum. Possimus dolore fuga quaerat molestias incidunt eligendi vero excepturi facilis velit quasi quos est alias iusto, sapiente ipsa enim eos quo magni inventore amet rem iste perferendis dolor. Nulla a quae, vel deserunt, esse quaerat dolorum voluptas nemo aperiam autem iusto?
+      Salah satu tindakan yang dapat dilakukan adalah dengan memetakan wilayah rawan bencana gunung meletus. Hal ini penting untuk memberikan informasi kepada masyarakat yang tinggal di wilayah tersebut tentang risiko yang mereka hadapi dan juga memudahkan proses evakuasi apabila terjadi bencana.
       </ItemPharagraph>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo minima suscipit possimus rem ipsum eaque laborum labore eligendi inventore amet quibusdam molestiae omnis aliquid, deserunt dignissimos quas ex esse dolorem hic beatae adipisci qui incidunt. Sequi adipisci facilis nesciunt dignissimos dolorem quasi suscipit consequatur accusamus veritatis soluta laudantium quos beatae, eius aliquid aliquam, quisquam autem maxime, nemo provident cum. Possimus dolore fuga quaerat molestias incidunt eligendi vero excepturi facilis velit quasi quos est alias iusto, sapiente ipsa enim eos quo magni inventore amet rem iste perferendis dolor. Nulla a quae, vel deserunt, esse quaerat dolorum voluptas nemo aperiam autem iusto?
+      Selain itu, pendidikan kepada masyarakat yang berada di dekat gunung berapi juga sangat penting dilakukan. Pendidikan ini dapat berupa pengetahuan tentang tanda-tanda awal meletusnya gunung, bagaimana menghadapi situasi darurat, dan tindakan evakuasi yang harus dilakukan. Dengan pendidikan yang tepat, masyarakat dapat lebih siap menghadapi bencana alam dan mengurangi risiko cedera dan kehilangan nyawa.
+      </ItemPharagraph>
+      <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
+      Kita juga dapat melakukan persiapan fisik dan logistik, seperti menyediakan tempat evakuasi yang aman, menyimpan persediaan makanan dan air bersih, dan menjaga alat komunikasi agar tetap dapat diakses. Dalam situasi darurat, persiapan yang baik dapat membantu masyarakat bertahan dalam jangka waktu yang lebih lama dan meminimalkan risiko keselamatan.
+      </ItemPharagraph>
+      <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
+      Dalam kesimpulannya, meskipun kita tidak dapat memprediksi dengan pasti kapan gunung meletus akan terjadi, tindakan pencegahan dan persiapan dapat membantu kita mengurangi risiko dan meminimalkan dampak bencana alam tersebut. Dengan melakukan tindakan-tindakan ini, kita dapat membangun masyarakat yang lebih siap dan tangguh menghadapi ancaman bencana gunung meletus.
       </ItemPharagraph>
     </>
   )

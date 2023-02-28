@@ -29,13 +29,13 @@ function C12() {
   return (
     <>
       <ItemMiniTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Bencana
+        Sebelum Bencana
       </ItemMiniTitle>
       <ItemTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
         Banjir Bandang
       </ItemTitle>
       <ItemSubTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ut doloremque odio architecto hic perferendis! Doloribus, sed laudantium. Enim nemo odit, temporibus non labore consectetur laudantium reprehenderit molestiae aut eum.
+      Bencana banjir bandang merupakan bencana alam yang merusak dan berdampak besar pada lingkungan serta kehidupan manusia. Untuk mencegah terjadinya bencana banjir bandang, salah satu upaya yang dapat dilakukan adalah dengan melakukan reboisasi tanaman dan pepohonan yang dapat menyerap air dengan cepat. Tanaman seperti pohon jati, akasia, atau mahoni dapat menyerap air dengan baik, sehingga dapat membantu mengurangi jumlah air yang mengalir ke sungai.
       </ItemSubTitle>
       <ItemImageWrapper variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
         <ItemImageContainer>
@@ -43,10 +43,13 @@ function C12() {
         </ItemImageContainer>
       </ItemImageWrapper>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo minima suscipit possimus rem ipsum eaque laborum labore eligendi inventore amet quibusdam molestiae omnis aliquid, deserunt dignissimos quas ex esse dolorem hic beatae adipisci qui incidunt. Sequi adipisci facilis nesciunt dignissimos dolorem quasi suscipit consequatur accusamus veritatis soluta laudantium quos beatae, eius aliquid aliquam, quisquam autem maxime, nemo provident cum. Possimus dolore fuga quaerat molestias incidunt eligendi vero excepturi facilis velit quasi quos est alias iusto, sapiente ipsa enim eos quo magni inventore amet rem iste perferendis dolor. Nulla a quae, vel deserunt, esse quaerat dolorum voluptas nemo aperiam autem iusto?
+      Selain itu, perlu juga memperbanyak dan menyediakan lahan terbuka untuk membuat lahan hijau yang dapat menyerap air. Hal ini dapat dilakukan dengan membuat taman kota, taman lingkungan, atau bahkan taman sekolah. Dengan adanya lahan hijau yang luas, air hujan dapat terserap dan tidak langsung mengalir ke sungai.
       </ItemPharagraph>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo minima suscipit possimus rem ipsum eaque laborum labore eligendi inventore amet quibusdam molestiae omnis aliquid, deserunt dignissimos quas ex esse dolorem hic beatae adipisci qui incidunt. Sequi adipisci facilis nesciunt dignissimos dolorem quasi suscipit consequatur accusamus veritatis soluta laudantium quos beatae, eius aliquid aliquam, quisquam autem maxime, nemo provident cum. Possimus dolore fuga quaerat molestias incidunt eligendi vero excepturi facilis velit quasi quos est alias iusto, sapiente ipsa enim eos quo magni inventore amet rem iste perferendis dolor. Nulla a quae, vel deserunt, esse quaerat dolorum voluptas nemo aperiam autem iusto?
+      Selanjutnya, perlu juga untuk menghentikan pembangunan perumahan di tepi sungai. Hal ini dapat mempersempit sungai dan menyebabkan sampah rumah masuk ke sungai. Selain itu, penting untuk membuang sampah pada tempatnya agar tidak menghambat aliran air di sungai.
+      </ItemPharagraph>
+      <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
+      Dalam rangka mengurangi risiko terjadinya bencana banjir bandang, perlu adanya kerjasama antara pemerintah, masyarakat, dan pemangku kepentingan lainnya. Selain itu, edukasi dan sosialisasi kepada masyarakat tentang pentingnya menjaga lingkungan dan memelihara tanaman juga perlu dilakukan secara terus menerus. Dengan demikian, diharapkan bencana banjir bandang dapat diminimalisir dan lingkungan tetap terjaga dengan baik.
       </ItemPharagraph>
     </>
   )

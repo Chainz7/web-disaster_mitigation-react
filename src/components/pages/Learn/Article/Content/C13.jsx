@@ -29,13 +29,13 @@ function C13() {
   return (
     <>
       <ItemMiniTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Bencana
+        Sebelum Bencana
       </ItemMiniTitle>
       <ItemTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Banjir Bandang
+        Tanah Longsor
       </ItemTitle>
       <ItemSubTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ut doloremque odio architecto hic perferendis! Doloribus, sed laudantium. Enim nemo odit, temporibus non labore consectetur laudantium reprehenderit molestiae aut eum.
+      Tanah longsor merupakan salah satu bencana alam yang sering terjadi di daerah yang memiliki lereng curam. Bencana ini dapat menimbulkan kerugian yang besar baik dari segi ekonomi, sosial, maupun lingkungan. Namun, bencana ini sebenarnya dapat dihindari atau setidaknya dapat diminimalisir dampaknya jika kita menerapkan beberapa langkah pencegahan.
       </ItemSubTitle>
       <ItemImageWrapper variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
         <ItemImageContainer>
@@ -43,10 +43,16 @@ function C13() {
         </ItemImageContainer>
       </ItemImageWrapper>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo minima suscipit possimus rem ipsum eaque laborum labore eligendi inventore amet quibusdam molestiae omnis aliquid, deserunt dignissimos quas ex esse dolorem hic beatae adipisci qui incidunt. Sequi adipisci facilis nesciunt dignissimos dolorem quasi suscipit consequatur accusamus veritatis soluta laudantium quos beatae, eius aliquid aliquam, quisquam autem maxime, nemo provident cum. Possimus dolore fuga quaerat molestias incidunt eligendi vero excepturi facilis velit quasi quos est alias iusto, sapiente ipsa enim eos quo magni inventore amet rem iste perferendis dolor. Nulla a quae, vel deserunt, esse quaerat dolorum voluptas nemo aperiam autem iusto?
+      Salah satu hal yang dapat dilakukan adalah dengan tidak menebang pohon secara tegak lurus. Pohon memiliki peran penting dalam menjaga daya tahan lereng. Jika pohon-pohon di sekitar lereng di tebang secara sembarangan, maka daya tahan tanah terhadap erosi dan tanah longsor akan menurun drastis. Oleh karena itu, kita harus menghindari menebang pohon secara langsung pada badan lereng yang curam.
       </ItemPharagraph>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo minima suscipit possimus rem ipsum eaque laborum labore eligendi inventore amet quibusdam molestiae omnis aliquid, deserunt dignissimos quas ex esse dolorem hic beatae adipisci qui incidunt. Sequi adipisci facilis nesciunt dignissimos dolorem quasi suscipit consequatur accusamus veritatis soluta laudantium quos beatae, eius aliquid aliquam, quisquam autem maxime, nemo provident cum. Possimus dolore fuga quaerat molestias incidunt eligendi vero excepturi facilis velit quasi quos est alias iusto, sapiente ipsa enim eos quo magni inventore amet rem iste perferendis dolor. Nulla a quae, vel deserunt, esse quaerat dolorum voluptas nemo aperiam autem iusto?
+      Selain itu, jika kita ingin mengali tanah dalam jumlah besar untuk keperluan tambang atau lainnya, maka sebaiknya jangan langsung memotong badan lereng secara tegak lurus. Kita dapat memotong badan lereng secara bertahap atau secara terasiring untuk mengurangi dampak yang ditimbulkan terhadap daya tahan tanah.
+      </ItemPharagraph>
+      <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
+      Jika suatu lahan miring terpaksa digunakan untuk membuat sawah atau ladang, maka kita dapat membuat sistem bertingkat. Sistem ini akan memperlambat aliran permukaan ketika hujan sehingga dapat mengurangi potensi terjadinya tanah longsor. Selain itu, perlu juga diatur sistem drainase agar tidak ada air yang tergenang di lereng.
+      </ItemPharagraph>
+      <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
+      Dalam rangka mencegah terjadinya bencana tanah longsor, penting bagi kita untuk memperhatikan faktor-faktor yang dapat mempengaruhi daya tahan tanah terhadap erosi dan tanah longsor. Dengan menerapkan beberapa langkah pencegahan seperti yang telah disebutkan di atas, kita dapat meminimalisir dampak bencana tanah longsor dan menjaga kelestarian lingkungan di sekitar kita.
       </ItemPharagraph>
     </>
   )
