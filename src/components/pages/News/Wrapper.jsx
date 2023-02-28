@@ -25,6 +25,7 @@ const Container = styled.div`
   justify-items: center;
   align-items: start;
   margin-top: 1.1rem;
+  margin-bottom: 2rem;
   gap: 2rem;
 `
 const TitleContainer = styled.div`
@@ -32,8 +33,7 @@ const TitleContainer = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: red;
-    @media (max-width: 1200px) {
+  @media (max-width: 1200px) {
     width: auto;
     margin-left: 2%;
     margin-right: 2%;
@@ -47,12 +47,16 @@ const Wrap = styled.div`
   width: 1200px;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
-  background-color: red;
-    @media (max-width: 1200px) {
+  align-items: flex-start;
+  @media (max-width: 1200px) {
     width: 96%;
     margin-left: 2%;
     margin-right: 2%;
+  }
+  @media (max-width: 878px) {
+    display: grid;
+    justify-items: center;
+    align-items: flex-start;
   }
 `
 export default Wrapper
