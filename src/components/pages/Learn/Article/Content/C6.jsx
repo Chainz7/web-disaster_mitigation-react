@@ -29,13 +29,13 @@ function C6() {
   return (
     <>
       <ItemMiniTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Bencana
+        Kapan Bencana Terjadi
       </ItemMiniTitle>
       <ItemTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Banjir Bandang
+        Tanah Longsor
       </ItemTitle>
       <ItemSubTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ut doloremque odio architecto hic perferendis! Doloribus, sed laudantium. Enim nemo odit, temporibus non labore consectetur laudantium reprehenderit molestiae aut eum.
+      Bencana tanah longsor memang merupakan bencana yang sangat sulit diprediksi kapan akan terjadi. Namun, ada beberapa faktor yang dapat meminimalkan terjadinya bencana tersebut, salah satunya adalah pengelolaan hutan yang baik dan edukasi kepada masyarakat terkait bencana alam yang bisa terjadi di daerah mereka. Desa Tulungrejo merupakan salah satu daerah yang memiliki keuntungan karena masih memiliki banyak hutan dan alam yang di kelola oleh perhutani, sehingga risiko terjadinya bencana tanah longsor dapat diminimalkan.
       </ItemSubTitle>
       <ItemImageWrapper variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
         <ItemImageContainer>
@@ -43,10 +43,10 @@ function C6() {
         </ItemImageContainer>
       </ItemImageWrapper>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo minima suscipit possimus rem ipsum eaque laborum labore eligendi inventore amet quibusdam molestiae omnis aliquid, deserunt dignissimos quas ex esse dolorem hic beatae adipisci qui incidunt. Sequi adipisci facilis nesciunt dignissimos dolorem quasi suscipit consequatur accusamus veritatis soluta laudantium quos beatae, eius aliquid aliquam, quisquam autem maxime, nemo provident cum. Possimus dolore fuga quaerat molestias incidunt eligendi vero excepturi facilis velit quasi quos est alias iusto, sapiente ipsa enim eos quo magni inventore amet rem iste perferendis dolor. Nulla a quae, vel deserunt, esse quaerat dolorum voluptas nemo aperiam autem iusto?
+      Namun demikian, musim kemarau panjang dan curah hujan yang tinggi serta angin kencang tetap dapat memicu terjadinya bencana tanah longsor. Oleh karena itu, sangat penting bagi masyarakat setempat untuk diberi edukasi terkait bencana alam dan bagaimana cara menghadapinya. Selain itu, perlu juga dilakukan penandaan dan pemasangan rambu-rambu yang menunjukkan daerah-daerah yang rawan terkena bencana tanah longsor, seperti yang sudah dilakukan di akses jalan menuju air terjun.
       </ItemPharagraph>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo minima suscipit possimus rem ipsum eaque laborum labore eligendi inventore amet quibusdam molestiae omnis aliquid, deserunt dignissimos quas ex esse dolorem hic beatae adipisci qui incidunt. Sequi adipisci facilis nesciunt dignissimos dolorem quasi suscipit consequatur accusamus veritatis soluta laudantium quos beatae, eius aliquid aliquam, quisquam autem maxime, nemo provident cum. Possimus dolore fuga quaerat molestias incidunt eligendi vero excepturi facilis velit quasi quos est alias iusto, sapiente ipsa enim eos quo magni inventore amet rem iste perferendis dolor. Nulla a quae, vel deserunt, esse quaerat dolorum voluptas nemo aperiam autem iusto?
+      Sejarah bencana tanah longsor yang terjadi di Coban Talun dan menewaskan empat orang menjadi pelajaran berharga bagi masyarakat Tulungrejo untuk selalu waspada terhadap kemungkinan terjadinya bencana serupa. Dalam menghadapi bencana tanah longsor, koordinasi antar instansi terkait dan pemenuhan kebutuhan darurat bagi korban harus menjadi prioritas. Dengan upaya yang terus-menerus untuk meningkatkan kewaspadaan dan kesiapsiagaan, diharapkan bencana tanah longsor dapat diminimalkan dan kerugian yang ditimbulkan dapat dihindari.
       </ItemPharagraph>
     </>
   )

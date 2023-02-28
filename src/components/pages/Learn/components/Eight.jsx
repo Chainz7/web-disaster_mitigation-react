@@ -50,7 +50,7 @@ function Eight() {
           <SubTitleContainer>
             <SubTitle className='subtitle-hover' variant={isSmallScreen ? opacityIn : bottomIn}
               whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
-              isSmallScreen={isSmallScreen}>Banjir Bandang</SubTitle>
+              isSmallScreen={isSmallScreen}>Pengertian</SubTitle>
           </SubTitleContainer>
         </Link>
       </SubContainer1>
@@ -66,7 +66,7 @@ function Eight() {
           <SubTitleContainer>
             <SubTitle className='subtitle-hover' variant={isSmallScreen ? opacityIn : bottomIn}
               whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
-              isSmallScreen={isSmallScreen}>Tanah Longsor</SubTitle>
+              isSmallScreen={isSmallScreen}>Manfaat</SubTitle>
           </SubTitleContainer>
         </Link>
       </SubContainer3>
@@ -82,7 +82,7 @@ function Eight() {
           <SubTitleContainer>
             <SubTitle className='subtitle-hover' variant={isSmallScreen ? opacityIn : bottomIn}
               whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
-              isSmallScreen={isSmallScreen}>Gunung Meletus</SubTitle>
+              isSmallScreen={isSmallScreen}>Dampak</SubTitle>
           </SubTitleContainer>
         </Link>
       </SubContainer4>

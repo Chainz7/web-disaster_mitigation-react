@@ -29,13 +29,13 @@ function C21() {
   return (
     <>
       <ItemMiniTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Bencana
+        Mitigasi Bencana
       </ItemMiniTitle>
       <ItemTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Banjir Bandang
+        Pengertian
       </ItemTitle>
       <ItemSubTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ut doloremque odio architecto hic perferendis! Doloribus, sed laudantium. Enim nemo odit, temporibus non labore consectetur laudantium reprehenderit molestiae aut eum.
+      Mitigasi bencana adalah serangkaian upaya yang bertujuan untuk mengurangi risiko dan dampak dari bencana alam atau manusia pada masyarakat, lingkungan, dan ekonomi. Mitigasi bencana melibatkan tiga tahap yaitu pra-bencana, selama bencana, dan pasca-bencana.
       </ItemSubTitle>
       <ItemImageWrapper variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
         <ItemImageContainer>
@@ -43,10 +43,16 @@ function C21() {
         </ItemImageContainer>
       </ItemImageWrapper>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo minima suscipit possimus rem ipsum eaque laborum labore eligendi inventore amet quibusdam molestiae omnis aliquid, deserunt dignissimos quas ex esse dolorem hic beatae adipisci qui incidunt. Sequi adipisci facilis nesciunt dignissimos dolorem quasi suscipit consequatur accusamus veritatis soluta laudantium quos beatae, eius aliquid aliquam, quisquam autem maxime, nemo provident cum. Possimus dolore fuga quaerat molestias incidunt eligendi vero excepturi facilis velit quasi quos est alias iusto, sapiente ipsa enim eos quo magni inventore amet rem iste perferendis dolor. Nulla a quae, vel deserunt, esse quaerat dolorum voluptas nemo aperiam autem iusto?
+      Pada tahap pra-bencana, mitigasi dilakukan melalui berbagai upaya seperti identifikasi risiko bencana, pengurangan kerentanan, dan peningkatan kapasitas masyarakat. Langkah-langkah ini meliputi pelatihan dan pendidikan masyarakat tentang tindakan yang harus dilakukan selama bencana, pembangunan infrastruktur yang tahan bencana, dan pengembangan sistem peringatan dini.
       </ItemPharagraph>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo minima suscipit possimus rem ipsum eaque laborum labore eligendi inventore amet quibusdam molestiae omnis aliquid, deserunt dignissimos quas ex esse dolorem hic beatae adipisci qui incidunt. Sequi adipisci facilis nesciunt dignissimos dolorem quasi suscipit consequatur accusamus veritatis soluta laudantium quos beatae, eius aliquid aliquam, quisquam autem maxime, nemo provident cum. Possimus dolore fuga quaerat molestias incidunt eligendi vero excepturi facilis velit quasi quos est alias iusto, sapiente ipsa enim eos quo magni inventore amet rem iste perferendis dolor. Nulla a quae, vel deserunt, esse quaerat dolorum voluptas nemo aperiam autem iusto?
+      Selama bencana, mitigasi dilakukan melalui koordinasi antara pihak yang terkait seperti lembaga pemerintah, swasta, dan masyarakat. Tindakan mitigasi pada tahap ini meliputi evakuasi, penyediaan tempat perlindungan, bantuan kemanusiaan, dan pemulihan fasilitas penting.
+      </ItemPharagraph>
+      <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
+      Pada tahap pasca-bencana, mitigasi dilakukan melalui rehabilitasi dan rekonstruksi infrastruktur yang rusak serta penyediaan bantuan pemulihan sosial dan ekonomi bagi korban bencana.
+      </ItemPharagraph>
+      <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
+      Dengan melakukan mitigasi bencana, diharapkan dapat mengurangi risiko dan dampak dari bencana pada masyarakat, lingkungan, dan ekonomi, serta memperkuat ketahanan masyarakat dalam menghadapi bencana.
       </ItemPharagraph>
     </>
   )

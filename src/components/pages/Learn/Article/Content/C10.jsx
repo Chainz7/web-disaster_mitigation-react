@@ -29,13 +29,13 @@ function C10() {
   return (
     <>
       <ItemMiniTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Bencana
+        Dampak Bencana Alam
       </ItemMiniTitle>
       <ItemTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Banjir Bandang
+        Bagi Masyarakat Desa
       </ItemTitle>
       <ItemSubTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ut doloremque odio architecto hic perferendis! Doloribus, sed laudantium. Enim nemo odit, temporibus non labore consectetur laudantium reprehenderit molestiae aut eum.
+      Warga sekitar yang mayoritas berkebun akan merasakan dampak yang signifikan saat terjadi bencana alam seperti tanah longsor atau banjir bandang. Salah satu dampak yang dirasakan adalah terputusnya jalur yang biasa dilewati untuk pergi ke kebun. Hal ini tentu sangat mengganggu aktivitas mereka sebagai petani.
       </ItemSubTitle>
       <ItemImageWrapper variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
         <ItemImageContainer>
@@ -43,10 +43,13 @@ function C10() {
         </ItemImageContainer>
       </ItemImageWrapper>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo minima suscipit possimus rem ipsum eaque laborum labore eligendi inventore amet quibusdam molestiae omnis aliquid, deserunt dignissimos quas ex esse dolorem hic beatae adipisci qui incidunt. Sequi adipisci facilis nesciunt dignissimos dolorem quasi suscipit consequatur accusamus veritatis soluta laudantium quos beatae, eius aliquid aliquam, quisquam autem maxime, nemo provident cum. Possimus dolore fuga quaerat molestias incidunt eligendi vero excepturi facilis velit quasi quos est alias iusto, sapiente ipsa enim eos quo magni inventore amet rem iste perferendis dolor. Nulla a quae, vel deserunt, esse quaerat dolorum voluptas nemo aperiam autem iusto?
+      Selain itu, terputusnya jalur menuju ke kebun juga dapat menghambat akses pasokan pangan bagi warga sekitar. Tanaman yang sudah siap panen mungkin tidak dapat diambil tepat waktu karena sulitnya akses ke kebun. Selain itu, akses untuk membawa bahan pertanian seperti pupuk dan benih ke kebun juga menjadi sulit.
       </ItemPharagraph>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo minima suscipit possimus rem ipsum eaque laborum labore eligendi inventore amet quibusdam molestiae omnis aliquid, deserunt dignissimos quas ex esse dolorem hic beatae adipisci qui incidunt. Sequi adipisci facilis nesciunt dignissimos dolorem quasi suscipit consequatur accusamus veritatis soluta laudantium quos beatae, eius aliquid aliquam, quisquam autem maxime, nemo provident cum. Possimus dolore fuga quaerat molestias incidunt eligendi vero excepturi facilis velit quasi quos est alias iusto, sapiente ipsa enim eos quo magni inventore amet rem iste perferendis dolor. Nulla a quae, vel deserunt, esse quaerat dolorum voluptas nemo aperiam autem iusto?
+      Dampak lain yang dirasakan oleh warga sekitar adalah hilangnya sumber penghasilan mereka. Tanaman yang sudah matang mungkin rusak karena tidak dapat diambil tepat waktu, sehingga mereka kehilangan potensi pendapatan dari panen tersebut. Selain itu, jika akses ke kebun terputus untuk waktu yang lama, warga juga mungkin kehilangan penghasilan dari pekerjaan mereka sebagai petani.
+      </ItemPharagraph>
+      <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
+      Oleh karena itu, perlu ada upaya untuk mengurangi dampak bencana alam pada petani dan warga sekitar. Upaya ini bisa dilakukan dengan mengembangkan sistem peringatan dini dan juga infrastruktur yang lebih tangguh. Selain itu, pendidikan dan pelatihan tentang cara menghadapi bencana alam juga perlu diberikan kepada warga agar mereka lebih siap dalam menghadapi situasi tersebut.
       </ItemPharagraph>
     </>
   )
