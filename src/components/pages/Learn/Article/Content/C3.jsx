@@ -32,10 +32,10 @@ function C3() {
         Bencana
       </ItemMiniTitle>
       <ItemTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Banjir Bandang
+        Gunung Meletus
       </ItemTitle>
       <ItemSubTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ut doloremque odio architecto hic perferendis! Doloribus, sed laudantium. Enim nemo odit, temporibus non labore consectetur laudantium reprehenderit molestiae aut eum.
+      Gunung meletus merupakan salah satu fenomena alam yang sangat berbahaya dan dapat mengakibatkan kerusakan yang besar bagi lingkungan sekitarnya dan masyarakat yang berada di dekatnya. Aktivitas vulkanik yang terjadi pada gunung meletus dapat berupa awan panas, lontaran material (pijar), hujan abu lebat, lava, gas racun, tsunami, dan banjir lahar.
       </ItemSubTitle>
       <ItemImageWrapper variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
         <ItemImageContainer>
@@ -43,10 +43,13 @@ function C3() {
         </ItemImageContainer>
       </ItemImageWrapper>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        
+      Awan panas adalah aliran panas yang bergerak dengan cepat dari gunung meletus. Ini adalah bahaya paling mematikan karena suhu dapat mencapai ribuan derajat Celcius. Lontaran material seperti batu dan pasir panas dapat menyebabkan kerusakan pada bangunan dan bahkan menyebabkan kematian. Hujan abu lebat dapat menyebabkan kerusakan pada pertanian dan sistem pernapasan manusia.
       </ItemPharagraph>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo minima suscipit possimus rem ipsum eaque laborum labore eligendi inventore amet quibusdam molestiae omnis aliquid, deserunt dignissimos quas ex esse dolorem hic beatae adipisci qui incidunt. Sequi adipisci facilis nesciunt dignissimos dolorem quasi suscipit consequatur accusamus veritatis soluta laudantium quos beatae, eius aliquid aliquam, quisquam autem maxime, nemo provident cum. Possimus dolore fuga quaerat molestias incidunt eligendi vero excepturi facilis velit quasi quos est alias iusto, sapiente ipsa enim eos quo magni inventore amet rem iste perferendis dolor. Nulla a quae, vel deserunt, esse quaerat dolorum voluptas nemo aperiam autem iusto?
+      Lava adalah aliran magma yang keluar dari gunung meletus dan dapat menghancurkan segala yang ada di jalurnya. Gas racun seperti sulfur dioksida dan karbon monoksida dapat membahayakan kesehatan manusia. Tsunami dan banjir lahar dapat terjadi jika letusan terjadi di daerah pesisir atau di daerah yang memiliki banyak sungai dan aliran air.
+      </ItemPharagraph>
+      <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
+      Oleh karena itu, BNPB dan pemerintah daerah harus selalu siap menghadapi bencana gunung meletus dan menyediakan rencana tanggap darurat yang tepat. Masyarakat yang tinggal di daerah rawan bencana juga harus mengetahui tanda-tanda awal letusan gunung dan mengikuti prosedur evakuasi yang telah ditetapkan. Pencegahan dini dan penanganan cepat dapat mengurangi dampak bencana gunung meletus dan menyelamatkan banyak nyawa.
       </ItemPharagraph>
     </>
   )
