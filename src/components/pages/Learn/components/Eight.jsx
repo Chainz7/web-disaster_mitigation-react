@@ -43,7 +43,7 @@ function Eight() {
           <SubImageContainer variant={isSmallScreen ? opacityIn : bottomIn}
               whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
               isSmallScreen={isSmallScreen}>
-            <SubImage src={img.learnIcon1}/>
+            <SubImage src={img.pengertian}/>
           </SubImageContainer>
         </Link>
         <Link to="/pelajari/artikel-21" className='link'>
@@ -59,7 +59,7 @@ function Eight() {
           <SubImageContainer variant={isSmallScreen ? opacityIn : bottomIn}
               whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
               isSmallScreen={isSmallScreen}>
-            <SubImage src={img.learnIcon2}/>
+            <SubImage src={img.manfaat}/>
           </SubImageContainer>
         </Link>
         <Link to="/pelajari/artikel-22" className='link'>
@@ -75,7 +75,7 @@ function Eight() {
           <SubImageContainer variant={isSmallScreen ? opacityIn : bottomIn}
               whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView}
               isSmallScreen={isSmallScreen}>
-            <SubImage src={img.learnIcon3}/>
+            <SubImage src={img.dampak}/>
           </SubImageContainer>
         </Link>
         <Link to="/pelajari/artikel-23" className='link'>

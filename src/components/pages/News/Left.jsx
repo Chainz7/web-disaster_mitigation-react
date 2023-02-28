@@ -23,12 +23,12 @@ function Left() {
         </ItemImageContainer>
         <ItemTextContainer>
           <ItemTextTop>
-            <ItemDateTitle variant={opacityIn} whileInView={opacityIn.whileInView}>14 Jan 2023 | Kegiatan </ItemDateTitle>
+            <ItemDateTitle variant={opacityIn} whileInView={opacityIn.whileInView}>14 Feb 2019 | Bencana </ItemDateTitle>
             <Link className='link' to="https://www.malangtimes.com/baca/36067/20190214/172000/bencana-besar-guncang-coban-talun-tewaskan-4-orang" target="_blank">
-              <ItemTitle variant={opacityIn} whileInView={opacityIn.whileInView}>“Gambut di Kala Senja”, Upaya Pantau Gambut Serukan Pentingnya Perlindungan Ekosistem Gambut</ItemTitle>
+              <ItemTitle variant={opacityIn} whileInView={opacityIn.whileInView}>“Bencana Besar Guncang Coban Talun” Tewaskan 4 Orang</ItemTitle>
             </Link>
           </ItemTextTop>
-          <ItemSubtitle variant={opacityIn} whileInView={opacityIn.whileInView}>Pantau Gambut menyerukan seluruh pemangku kepentingan agar bersungguh-sungguh melakukan aksi nyata dalam upaya melindungi...</ItemSubtitle>
+          <ItemSubtitle variant={opacityIn} whileInView={opacityIn.whileInView}>Bencana alam cukup besar menyelimuti Wanawisata Coban Talun, Desa Tulungrejo, Kecamatan Batu, Kamis (14/2/2019). Ada 15 korban terjebak dalam bencana itu dan 4 di antaranya...</ItemSubtitle>
         </ItemTextContainer>
       </ItemContainer>
     </Container>
@@ -70,6 +70,7 @@ const ItemImageContainer = styled(Link)`
 const ItemImage = styled(motion.img)`
   width: 100%;
   height: 100%;
+  border-radius: 2%;
   object-fit: cover;
 `
 const ItemTextContainer = styled.div`
@@ -93,8 +94,8 @@ const ItemTitle = styled(motion.span)`
   text-decoration-color: ${vari.quartery};
   text-decoration-thickness: .1rem;
   &:hover {
-    color: ${vari.primary};
-    text-decoration-color: ${vari.primary};
+    color: ${vari.quartery};
+    text-decoration-color: ${vari.articleBottom};
     transition: all 0.4s ease-in-out;  
   }
   @media (max-width: 510px) {

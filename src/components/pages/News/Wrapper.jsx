@@ -8,9 +8,7 @@ import Right from './Right'
 function Wrapper() {
   return (
     <Container>
-      <TitleContainer>
-        <Title>Kabar Bencana</Title>
-      </TitleContainer>
+      <Title>Kabar Bencana</Title>
       <Wrap>
         <Left />
         <Right />
@@ -28,20 +26,9 @@ const Container = styled.div`
   margin-bottom: 2rem;
   gap: 2rem;
 `
-const TitleContainer = styled.div`
-  width: 1200px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  @media (max-width: 1200px) {
-    width: auto;
-    margin-left: 2%;
-    margin-right: 2%;
-  }
-`
 const Title = styled(motion.span)`
-  font-weight: 400;
-  font-size: 26px;
+  font-weight: 500;
+  font-size: 28px;
 `
 const Wrap = styled.div`
   width: 1200px;
@@ -52,11 +39,13 @@ const Wrap = styled.div`
     width: 96%;
     margin-left: 2%;
     margin-right: 2%;
+    gap: 1rem;
   }
   @media (max-width: 878px) {
     display: grid;
     justify-items: center;
     align-items: flex-start;
+    gap: 5rem;
   }
 `
 export default Wrapper
