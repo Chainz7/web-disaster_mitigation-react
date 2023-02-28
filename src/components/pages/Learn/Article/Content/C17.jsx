@@ -29,13 +29,13 @@ function C17() {
   return (
     <>
       <ItemMiniTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Bencana
+        Saat Bencana Terjadi
       </ItemMiniTitle>
       <ItemTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Banjir Bandang
+        Gunung Meletus
       </ItemTitle>
       <ItemSubTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ut doloremque odio architecto hic perferendis! Doloribus, sed laudantium. Enim nemo odit, temporibus non labore consectetur laudantium reprehenderit molestiae aut eum.
+      Ketika terjadi bencana gunung meletus, tindakan yang paling penting adalah untuk segera mengungsi dari area yang terdampak erupsi. Pemerintah biasanya sudah memiliki rencana evakuasi dan tempat penampungan untuk warga yang terkena dampak. Jika Anda berada di daerah terdampak erupsi, hindari terkena aliran lava, abu vulkanik, dan material vulkanik lainnya yang dapat membahayakan keselamatan Anda.
       </ItemSubTitle>
       <ItemImageWrapper variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
         <ItemImageContainer>
@@ -43,10 +43,10 @@ function C17() {
         </ItemImageContainer>
       </ItemImageWrapper>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo minima suscipit possimus rem ipsum eaque laborum labore eligendi inventore amet quibusdam molestiae omnis aliquid, deserunt dignissimos quas ex esse dolorem hic beatae adipisci qui incidunt. Sequi adipisci facilis nesciunt dignissimos dolorem quasi suscipit consequatur accusamus veritatis soluta laudantium quos beatae, eius aliquid aliquam, quisquam autem maxime, nemo provident cum. Possimus dolore fuga quaerat molestias incidunt eligendi vero excepturi facilis velit quasi quos est alias iusto, sapiente ipsa enim eos quo magni inventore amet rem iste perferendis dolor. Nulla a quae, vel deserunt, esse quaerat dolorum voluptas nemo aperiam autem iusto?
+      Selain itu, pastikan untuk memantau perkembangan situasi melalui informasi dari pemerintah dan media setempat. Jika Anda tinggal di daerah dekat gunung berapi, pastikan Anda telah mengetahui tanda-tanda awal erupsi seperti suara gemuruh, gempa bumi, dan perubahan pada aktivitas gunung berapi. Hal ini penting agar Anda bisa segera mengambil tindakan evakuasi dengan cepat.
       </ItemPharagraph>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo minima suscipit possimus rem ipsum eaque laborum labore eligendi inventore amet quibusdam molestiae omnis aliquid, deserunt dignissimos quas ex esse dolorem hic beatae adipisci qui incidunt. Sequi adipisci facilis nesciunt dignissimos dolorem quasi suscipit consequatur accusamus veritatis soluta laudantium quos beatae, eius aliquid aliquam, quisquam autem maxime, nemo provident cum. Possimus dolore fuga quaerat molestias incidunt eligendi vero excepturi facilis velit quasi quos est alias iusto, sapiente ipsa enim eos quo magni inventore amet rem iste perferendis dolor. Nulla a quae, vel deserunt, esse quaerat dolorum voluptas nemo aperiam autem iusto?
+      Selama evakuasi, pastikan Anda membawa barang-barang penting seperti makanan, air, obat-obatan, dan barang-barang berharga lainnya. Setelah bencana, pastikan untuk mengikuti petunjuk dari pemerintah setempat dalam membersihkan daerah terdampak dan kembali ke wilayah Anda jika diizinkan. Ingatlah untuk selalu memperhatikan peringatan dan tindakan yang diambil oleh pemerintah agar terhindar dari bahaya dan dapat bertindak dengan cepat dan tepat saat terjadi bencana gunung meletus.
       </ItemPharagraph>
     </>
   )

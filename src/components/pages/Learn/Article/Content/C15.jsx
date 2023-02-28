@@ -29,13 +29,13 @@ function C15() {
   return (
     <>
       <ItemMiniTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Bencana
+        Saat Bencana Terjadi
       </ItemMiniTitle>
       <ItemTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
         Banjir Bandang
       </ItemTitle>
       <ItemSubTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ut doloremque odio architecto hic perferendis! Doloribus, sed laudantium. Enim nemo odit, temporibus non labore consectetur laudantium reprehenderit molestiae aut eum.
+      Saat terjadi bencana banjir bandang, langkah pertama yang harus diambil adalah untuk menjaga keselamatan diri sendiri dan keluarga. Jangan mencoba untuk bergerak ke area terendah atau dekat dengan aliran sungai, karena bisa sangat berbahaya. Jika diperlukan, segera mencari tempat yang lebih tinggi dan aman, seperti lantai atas rumah atau gedung.
       </ItemSubTitle>
       <ItemImageWrapper variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
         <ItemImageContainer>
@@ -43,11 +43,14 @@ function C15() {
         </ItemImageContainer>
       </ItemImageWrapper>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo minima suscipit possimus rem ipsum eaque laborum labore eligendi inventore amet quibusdam molestiae omnis aliquid, deserunt dignissimos quas ex esse dolorem hic beatae adipisci qui incidunt. Sequi adipisci facilis nesciunt dignissimos dolorem quasi suscipit consequatur accusamus veritatis soluta laudantium quos beatae, eius aliquid aliquam, quisquam autem maxime, nemo provident cum. Possimus dolore fuga quaerat molestias incidunt eligendi vero excepturi facilis velit quasi quos est alias iusto, sapiente ipsa enim eos quo magni inventore amet rem iste perferendis dolor. Nulla a quae, vel deserunt, esse quaerat dolorum voluptas nemo aperiam autem iusto?
+      Setelah itu, pastikan untuk mengikuti instruksi dari pihak berwenang, seperti polisi atau petugas penyelamat, untuk evakuasi jika diperlukan. Jangan lupa membawa perlengkapan yang diperlukan seperti pakaian ganti, obat-obatan, makanan dan minuman serta barang berharga.
       </ItemPharagraph>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo minima suscipit possimus rem ipsum eaque laborum labore eligendi inventore amet quibusdam molestiae omnis aliquid, deserunt dignissimos quas ex esse dolorem hic beatae adipisci qui incidunt. Sequi adipisci facilis nesciunt dignissimos dolorem quasi suscipit consequatur accusamus veritatis soluta laudantium quos beatae, eius aliquid aliquam, quisquam autem maxime, nemo provident cum. Possimus dolore fuga quaerat molestias incidunt eligendi vero excepturi facilis velit quasi quos est alias iusto, sapiente ipsa enim eos quo magni inventore amet rem iste perferendis dolor. Nulla a quae, vel deserunt, esse quaerat dolorum voluptas nemo aperiam autem iusto?
+      Setelah banjir mereda, pastikan untuk membersihkan rumah dari lumpur dan kotoran yang tertinggal. Pastikan juga untuk menghindari air yang terkontaminasi, karena bisa berbahaya bagi kesehatan. Banyak organisasi atau lembaga yang memberikan bantuan dan pertolongan pada korban banjir bandang, sehingga pastikan untuk mengikuti instruksi dari pihak terkait dalam menerima bantuan tersebut.
       </ItemPharagraph>
+      <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
+      Selain itu, lakukan langkah pencegahan agar tidak terjadi bencana banjir bandang di masa depan. Salah satunya adalah dengan memastikan drainase dan saluran air bersih, serta menjaga kelestarian lingkungan seperti hutan dan sungai. Jangan lupa untuk selalu siap dan waspada pada kondisi cuaca yang ekstrem, dan selalu mengikuti instruksi pihak berwenang saat terjadi bencana.
+            </ItemPharagraph>
     </>
   )
 }

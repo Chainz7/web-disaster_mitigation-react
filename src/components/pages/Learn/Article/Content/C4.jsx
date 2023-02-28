@@ -32,10 +32,10 @@ function C4() {
         Bencana
       </ItemMiniTitle>
       <ItemTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Banjir Bandang
+        Apakah Dapat Terjadi Bersamaan?
       </ItemTitle>
       <ItemSubTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ut doloremque odio architecto hic perferendis! Doloribus, sed laudantium. Enim nemo odit, temporibus non labore consectetur laudantium reprehenderit molestiae aut eum.
+      Ketiga bencana alam, yaitu banjir bandang, tanah longsor, dan gunung meletus, memang dapat terjadi secara bersamaan akibat berbagai faktor yang berkaitan dengan kondisi alam dan lingkungan. Salah satu faktor yang bisa memicu ketiga bencana tersebut adalah curah hujan yang tinggi, terutama pada daerah dataran tinggi yang dekat dengan sungai dan gunung berapi.
       </ItemSubTitle>
       <ItemImageWrapper variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
         <ItemImageContainer>
@@ -43,10 +43,13 @@ function C4() {
         </ItemImageContainer>
       </ItemImageWrapper>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo minima suscipit possimus rem ipsum eaque laborum labore eligendi inventore amet quibusdam molestiae omnis aliquid, deserunt dignissimos quas ex esse dolorem hic beatae adipisci qui incidunt. Sequi adipisci facilis nesciunt dignissimos dolorem quasi suscipit consequatur accusamus veritatis soluta laudantium quos beatae, eius aliquid aliquam, quisquam autem maxime, nemo provident cum. Possimus dolore fuga quaerat molestias incidunt eligendi vero excepturi facilis velit quasi quos est alias iusto, sapiente ipsa enim eos quo magni inventore amet rem iste perferendis dolor. Nulla a quae, vel deserunt, esse quaerat dolorum voluptas nemo aperiam autem iusto?
+      Pada musim kemarau, tanah yang kering akan membentuk rongga pecah yang dapat menampung air ketika musim hujan tiba. Namun, jika curah hujan terus menerus intensitasnya tinggi, air akan masuk ke dalam rongga dan meresap ke dalam tanah yang retak, sehingga terjadi pergeseran tanah dan erosi yang kemudian memicu terjadinya longsor.
       </ItemPharagraph>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo minima suscipit possimus rem ipsum eaque laborum labore eligendi inventore amet quibusdam molestiae omnis aliquid, deserunt dignissimos quas ex esse dolorem hic beatae adipisci qui incidunt. Sequi adipisci facilis nesciunt dignissimos dolorem quasi suscipit consequatur accusamus veritatis soluta laudantium quos beatae, eius aliquid aliquam, quisquam autem maxime, nemo provident cum. Possimus dolore fuga quaerat molestias incidunt eligendi vero excepturi facilis velit quasi quos est alias iusto, sapiente ipsa enim eos quo magni inventore amet rem iste perferendis dolor. Nulla a quae, vel deserunt, esse quaerat dolorum voluptas nemo aperiam autem iusto?
+      Selain itu, jika curah hujan terus menerus tinggi, air hujan dan tanah yang bergeser bisa masuk ke dalam sungai dan memicu terjadinya banjir bandang. Faktor curah hujan yang tinggi juga bisa memicu terjadinya gunung meletus. Air hujan yang terkumpul di puncak gunung bisa merusak batuan vulkanik dan menyebabkan abu vulkanik terkikis, sehingga beban gunung berkurang dan memicu terjadinya erupsi.
+      </ItemPharagraph>
+      <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
+      Oleh karena itu, pemerintah dan masyarakat harus lebih memperhatikan kondisi lingkungan dan menjaga kelestariannya untuk mengurangi risiko terjadinya bencana alam yang dapat terjadi secara bersamaan. Upaya pengelolaan lingkungan seperti konservasi hutan, pengelolaan sungai, dan pengurangan polusi bisa dilakukan untuk mengurangi risiko terjadinya bencana alam. Selain itu, masyarakat juga harus meningkatkan kesadaran dan pengetahuan tentang bahaya bencana alam dan bagaimana cara menghadapinya.
       </ItemPharagraph>
     </>
   )

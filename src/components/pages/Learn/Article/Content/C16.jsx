@@ -29,13 +29,13 @@ function C16() {
   return (
     <>
       <ItemMiniTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Bencana
+        Saat Bencana Terjadi
       </ItemMiniTitle>
       <ItemTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Banjir Bandang
+        Tanah Longsor
       </ItemTitle>
       <ItemSubTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ut doloremque odio architecto hic perferendis! Doloribus, sed laudantium. Enim nemo odit, temporibus non labore consectetur laudantium reprehenderit molestiae aut eum.
+      Bencana tanah longsor dapat terjadi dengan cepat dan menyebabkan kerusakan yang besar. Ketika terjadi bencana tanah longsor, hal pertama yang harus dilakukan adalah mencari tempat yang aman. Jangan berada di dekat area yang rawan longsor atau di bawah lereng yang curam. Jika Anda tinggal di daerah yang rawan longsor, pastikan untuk memiliki rencana evakuasi darurat dan mengetahui rute yang aman untuk keluar dari daerah tersebut.
       </ItemSubTitle>
       <ItemImageWrapper variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
         <ItemImageContainer>
@@ -43,11 +43,14 @@ function C16() {
         </ItemImageContainer>
       </ItemImageWrapper>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo minima suscipit possimus rem ipsum eaque laborum labore eligendi inventore amet quibusdam molestiae omnis aliquid, deserunt dignissimos quas ex esse dolorem hic beatae adipisci qui incidunt. Sequi adipisci facilis nesciunt dignissimos dolorem quasi suscipit consequatur accusamus veritatis soluta laudantium quos beatae, eius aliquid aliquam, quisquam autem maxime, nemo provident cum. Possimus dolore fuga quaerat molestias incidunt eligendi vero excepturi facilis velit quasi quos est alias iusto, sapiente ipsa enim eos quo magni inventore amet rem iste perferendis dolor. Nulla a quae, vel deserunt, esse quaerat dolorum voluptas nemo aperiam autem iusto?
+      Setelah mencari tempat yang aman, segera lakukan penilaian awal terhadap kerusakan yang terjadi dan mencari tahu apakah ada korban atau orang yang terperangkap di dalam reruntuhan. Jangan mencoba untuk membersihkan reruntuhan atau mengambil risiko yang tidak perlu jika tidak terlatih atau tidak memiliki peralatan yang sesuai.
       </ItemPharagraph>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo minima suscipit possimus rem ipsum eaque laborum labore eligendi inventore amet quibusdam molestiae omnis aliquid, deserunt dignissimos quas ex esse dolorem hic beatae adipisci qui incidunt. Sequi adipisci facilis nesciunt dignissimos dolorem quasi suscipit consequatur accusamus veritatis soluta laudantium quos beatae, eius aliquid aliquam, quisquam autem maxime, nemo provident cum. Possimus dolore fuga quaerat molestias incidunt eligendi vero excepturi facilis velit quasi quos est alias iusto, sapiente ipsa enim eos quo magni inventore amet rem iste perferendis dolor. Nulla a quae, vel deserunt, esse quaerat dolorum voluptas nemo aperiam autem iusto?
+      Langkah selanjutnya adalah memberitahu petugas penanggulangan bencana setempat dan mengikuti instruksi mereka. Petugas penanggulangan bencana akan membantu untuk mengevaluasi situasi, memberikan bantuan medis dan logistik, serta membantu evakuasi penduduk yang terkena dampak bencana.
       </ItemPharagraph>
+      <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
+      Setelah bencana tanah longsor berakhir, penting untuk memantau kondisi daerah sekitar. Jangan mencoba untuk kembali ke rumah atau daerah yang terkena dampak bencana tanah longsor sebelum mendapatkan informasi dari pihak berwenang bahwa daerah tersebut aman dan layak dihuni kembali. Pastikan juga untuk mengikuti arahan dari pihak berwenang terkait perbaikan infrastruktur dan perumahan.
+            </ItemPharagraph>
     </>
   )
 }

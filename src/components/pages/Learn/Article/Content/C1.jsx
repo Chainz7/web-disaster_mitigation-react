@@ -35,7 +35,7 @@ function C1() {
         Banjir Bandang
       </ItemTitle>
       <ItemSubTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ut doloremque odio architecto hic perferendis! Doloribus, sed laudantium. Enim nemo odit, temporibus non labore consectetur laudantium reprehenderit molestiae aut eum.
+      Banjir bandang atau air bah adalah salah satu jenis bencana banjir yang sangat merugikan manusia dan lingkungan. Bencana ini terjadi ketika debit air sungai meningkat secara tiba-tiba karena curah hujan yang tinggi atau adanya faktor-faktor lain seperti longsor, letusan gunung, atau pembebasan waduk. Banjir bandang cenderung terjadi pada wilayah yang berada di daerah aliran sungai dengan kemiringan yang curam, sehingga air dapat dengan cepat mengalir ke arah dataran rendah.
       </ItemSubTitle>
       <ItemImageWrapper variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
         <ItemImageContainer>
@@ -43,10 +43,7 @@ function C1() {
         </ItemImageContainer>
       </ItemImageWrapper>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-      abc
-      </ItemPharagraph>
-      <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo minima suscipit possimus rem ipsum eaque laborum labore eligendi inventore amet quibusdam molestiae omnis aliquid, deserunt dignissimos quas ex esse dolorem hic beatae adipisci qui incidunt. Sequi adipisci facilis nesciunt dignissimos dolorem quasi suscipit consequatur accusamus veritatis soluta laudantium quos beatae, eius aliquid aliquam, quisquam autem maxime, nemo provident cum. Possimus dolore fuga quaerat molestias incidunt eligendi vero excepturi facilis velit quasi quos est alias iusto, sapiente ipsa enim eos quo magni inventore amet rem iste perferendis dolor. Nulla a quae, vel deserunt, esse quaerat dolorum voluptas nemo aperiam autem iusto?
+      Karena datang secara tiba-tiba, banjir bandang dapat menyebabkan kerusakan yang besar pada infrastruktur, rumah, dan fasilitas umum, serta membahayakan keselamatan jiwa manusia. Oleh karena itu, peran Badan Nasional Penanggulangan Bencana (BNPB) sangat penting dalam mengatasi bencana banjir bandang. BNPB memiliki tugas untuk melakukan koordinasi dan integrasi penanggulangan bencana, termasuk bencana banjir bandang.
       </ItemPharagraph>
     </>
   )

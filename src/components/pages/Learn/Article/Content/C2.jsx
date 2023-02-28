@@ -32,10 +32,10 @@ function C2() {
         Bencana
       </ItemMiniTitle>
       <ItemTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Banjir Bandang
+        Tanah Longsor
       </ItemTitle>
       <ItemSubTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ut doloremque odio architecto hic perferendis! Doloribus, sed laudantium. Enim nemo odit, temporibus non labore consectetur laudantium reprehenderit molestiae aut eum.
+      Tanah longsor adalah fenomena alamiah yang terjadi ketika kestabilan lereng terganggu, sehingga menyebabkan tanah, batuan, atau campuran keduanya, menuruni atau keluar dari lereng. Hal ini dapat terjadi karena berbagai faktor seperti curah hujan yang tinggi, perubahan suhu yang drastis, gempa bumi, erosi, penggundulan hutan, atau aktivitas manusia seperti pembangunan yang tidak terkontrol.
       </ItemSubTitle>
       <ItemImageWrapper variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
         <ItemImageContainer>
@@ -43,10 +43,9 @@ function C2() {
         </ItemImageContainer>
       </ItemImageWrapper>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo minima suscipit possimus rem ipsum eaque laborum labore eligendi inventore amet quibusdam molestiae omnis aliquid, deserunt dignissimos quas ex esse dolorem hic beatae adipisci qui incidunt. Sequi adipisci facilis nesciunt dignissimos dolorem quasi suscipit consequatur accusamus veritatis soluta laudantium quos beatae, eius aliquid aliquam, quisquam autem maxime, nemo provident cum. Possimus dolore fuga quaerat molestias incidunt eligendi vero excepturi facilis velit quasi quos est alias iusto, sapiente ipsa enim eos quo magni inventore amet rem iste perferendis dolor. Nulla a quae, vel deserunt, esse quaerat dolorum voluptas nemo aperiam autem iusto?
-      </ItemPharagraph>
+      Dampak dari tanah longsor bisa sangat merusak, mengancam keselamatan manusia dan merusak properti, infrastruktur, dan lingkungan sekitar. BNPB dan pihak terkait melakukan berbagai upaya untuk meminimalkan risiko tanah longsor, seperti melakukan pengamatan dan pemantauan kondisi lereng yang rawan, pengelolaan lahan yang baik, dan edukasi dan sosialisasi kepada masyarakat tentang bahaya dan cara mengurangi risiko tanah longsor.      </ItemPharagraph>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo minima suscipit possimus rem ipsum eaque laborum labore eligendi inventore amet quibusdam molestiae omnis aliquid, deserunt dignissimos quas ex esse dolorem hic beatae adipisci qui incidunt. Sequi adipisci facilis nesciunt dignissimos dolorem quasi suscipit consequatur accusamus veritatis soluta laudantium quos beatae, eius aliquid aliquam, quisquam autem maxime, nemo provident cum. Possimus dolore fuga quaerat molestias incidunt eligendi vero excepturi facilis velit quasi quos est alias iusto, sapiente ipsa enim eos quo magni inventore amet rem iste perferendis dolor. Nulla a quae, vel deserunt, esse quaerat dolorum voluptas nemo aperiam autem iusto?
+      Penting bagi masyarakat untuk memahami bahaya tanah longsor dan bagaimana mengurangi risiko terjadinya. Beberapa tindakan yang dapat dilakukan antara lain menjaga kelestarian lingkungan, menghindari membangun di lereng yang rawan, melakukan penahanan dan pengalihan air, serta membangun dinding penahan atau struktur pendukung pada lereng yang berisiko. Dengan kesadaran dan tindakan yang tepat, risiko terjadinya tanah longsor dapat diminimalkan sehingga keamanan dan kesejahteraan masyarakat dapat terjaga.    
       </ItemPharagraph>
     </>
   )
