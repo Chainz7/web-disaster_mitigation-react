@@ -35,7 +35,7 @@ function C8() {
         Masyarakat Desa
       </ItemTitle>
       <ItemSubTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ut doloremque odio architecto hic perferendis! Doloribus, sed laudantium. Enim nemo odit, temporibus non labore consectetur laudantium reprehenderit molestiae aut eum.
+      Kesadaran akan mitigasi bencana yang semakin tinggi di masyarakat merupakan suatu hal yang positif. Hal ini menunjukkan bahwa upaya-upaya yang dilakukan oleh pihak-pihak terkait seperti petugas penanggulangan bencana dan perusahaan asuransi mulai membuahkan hasil.
       </ItemSubTitle>
       <ItemImageWrapper variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
         <ItemImageContainer>
@@ -43,10 +43,16 @@ function C8() {
         </ItemImageContainer>
       </ItemImageWrapper>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-      Para masyarakat sudah memahami mitigasi benacana, ada petugas bernama Pak Nawi yang mengirimkan kabar ke petugas wisata dan wisata tersebut langsung ditutup. Para masyarakat di beri simulasi bencana saat mengikuti perkumpulan rt dan mendapatkan wawasan tersebut dari Perhutani. Para masyarkat desa pun juga sudah diberi asuransi dan terdapat pks.
+      Kasus yang terjadi di mana petugas penanggulangan bencana yang berhasil mengirimkan kabar tentang potensi bencana kepada petugas wisata sehingga wisata tersebut langsung ditutup merupakan suatu tindakan yang sangat tepat. Hal ini menunjukkan bahwa koordinasi antarlembaga dan keberadaan sistem peringatan dini yang efektif sangatlah penting dalam mengurangi risiko bencana
       </ItemPharagraph>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo minima suscipit possimus rem ipsum eaque laborum labore eligendi inventore amet quibusdam molestiae omnis aliquid, deserunt dignissimos quas ex esse dolorem hic beatae adipisci qui incidunt. Sequi adipisci facilis nesciunt dignissimos dolorem quasi suscipit consequatur accusamus veritatis soluta laudantium quos beatae, eius aliquid aliquam, quisquam autem maxime, nemo provident cum. Possimus dolore fuga quaerat molestias incidunt eligendi vero excepturi facilis velit quasi quos est alias iusto, sapiente ipsa enim eos quo magni inventore amet rem iste perferendis dolor. Nulla a quae, vel deserunt, esse quaerat dolorum voluptas nemo aperiam autem iusto?
+      Selain itu, pemberian simulasi bencana kepada masyarakat di berbagai tempat seperti perkumpulan RT dan edukasi tentang bencana dari pihak Perhutani juga merupakan suatu langkah yang baik untuk meningkatkan kesadaran masyarakat. Hal ini membantu masyarakat untuk memahami potensi bencana yang bisa terjadi dan mengambil tindakan yang tepat ketika terjadi bencana.
+      </ItemPharagraph>
+      <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
+      Pemberian asuransi oleh perusahaan asuransi dan keberadaan PKS (Program Keluarga Sejahtera) juga sangat membantu masyarakat dalam mengatasi dampak bencana yang terjadi. Dengan adanya asuransi, masyarakat dapat mendapatkan perlindungan finansial dalam menghadapi dampak bencana. Sementara itu, PKS dapat membantu masyarakat untuk meningkatkan kualitas hidupnya secara ekonomi sehingga mampu mengurangi dampak sosial dan ekonomi akibat bencana.
+      </ItemPharagraph>
+      <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
+      Secara keseluruhan, upaya-upaya tersebut merupakan langkah-langkah yang penting dalam mengurangi risiko bencana dan meningkatkan kesiapsiagaan masyarakat. Diharapkan bahwa upaya-upaya tersebut terus dikembangkan dan dijalankan secara konsisten untuk mencapai tujuan yang lebih baik dalam mengurangi risiko bencana di masa depan.    
       </ItemPharagraph>
     </>
   )
