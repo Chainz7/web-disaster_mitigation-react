@@ -39,7 +39,7 @@ function C3() {
       </ItemSubTitle>
       <ItemImageWrapper variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
         <ItemImageContainer>
-          <ItemImage src={img.learn1}/>
+          <ItemImage src="https://img.freepik.com/free-vector/outdoor-sky-scene_1308-45748.jpg?w=996&t=st=1677674115~exp=1677674715~hmac=04995d445be702e0ff48d4045e1f954ac0928a48fd3d938346e1c6435e4d9ea5"/>
         </ItemImageContainer>
       </ItemImageWrapper>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>

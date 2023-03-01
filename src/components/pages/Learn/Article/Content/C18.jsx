@@ -29,25 +29,28 @@ function C18() {
   return (
     <>
       <ItemMiniTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Bencana
+        Setelah Bencana Terjadi
       </ItemMiniTitle>
       <ItemTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
         Banjir Bandang
       </ItemTitle>
       <ItemSubTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ut doloremque odio architecto hic perferendis! Doloribus, sed laudantium. Enim nemo odit, temporibus non labore consectetur laudantium reprehenderit molestiae aut eum.
-      </ItemSubTitle>
+      Setelah terjadinya bencana banjir bandang, langkah-langkah yang dilakukan dapat bervariasi tergantung pada skala dan tingkat kerusakan yang terjadi. Secara umum, tindakan pertama yang harus dilakukan adalah memastikan keselamatan dan kesehatan masyarakat. Tim darurat harus segera merespon dengan menyediakan bantuan kesehatan, air bersih, makanan, pakaian, dan tempat perlindungan bagi korban.
+            </ItemSubTitle>
       <ItemImageWrapper variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
         <ItemImageContainer>
-          <ItemImage src={img.learn1}/>
+          <ItemImage src="https://img.freepik.com/free-vector/flat-hand-drawn-patient-taking-medical-examination_52683-57829.jpg?t=st=1677676415~exp=1677677015~hmac=7b644cf2a54c7a97ac7abe33fa9d52ea2406a59cd1ac619ccfe4c1a0ece6ed5f"/>
         </ItemImageContainer>
       </ItemImageWrapper>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo minima suscipit possimus rem ipsum eaque laborum labore eligendi inventore amet quibusdam molestiae omnis aliquid, deserunt dignissimos quas ex esse dolorem hic beatae adipisci qui incidunt. Sequi adipisci facilis nesciunt dignissimos dolorem quasi suscipit consequatur accusamus veritatis soluta laudantium quos beatae, eius aliquid aliquam, quisquam autem maxime, nemo provident cum. Possimus dolore fuga quaerat molestias incidunt eligendi vero excepturi facilis velit quasi quos est alias iusto, sapiente ipsa enim eos quo magni inventore amet rem iste perferendis dolor. Nulla a quae, vel deserunt, esse quaerat dolorum voluptas nemo aperiam autem iusto?
-      </ItemPharagraph>
+      Setelah itu, pihak berwenang harus mengevaluasi kerusakan dan memulai upaya pemulihan. Tim pemulihan harus mengidentifikasi area yang paling terdampak dan memprioritaskan tindakan untuk memulihkan layanan penting seperti listrik, air bersih, sanitasi, dan infrastruktur jalan raya
+            </ItemPharagraph>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo minima suscipit possimus rem ipsum eaque laborum labore eligendi inventore amet quibusdam molestiae omnis aliquid, deserunt dignissimos quas ex esse dolorem hic beatae adipisci qui incidunt. Sequi adipisci facilis nesciunt dignissimos dolorem quasi suscipit consequatur accusamus veritatis soluta laudantium quos beatae, eius aliquid aliquam, quisquam autem maxime, nemo provident cum. Possimus dolore fuga quaerat molestias incidunt eligendi vero excepturi facilis velit quasi quos est alias iusto, sapiente ipsa enim eos quo magni inventore amet rem iste perferendis dolor. Nulla a quae, vel deserunt, esse quaerat dolorum voluptas nemo aperiam autem iusto?
-      </ItemPharagraph>
+      Langkah selanjutnya adalah membersihkan sisa-sisa lumpur dan sampah yang terbawa banjir. Tim pembersihan harus membantu korban membersihkan dan merestorasi rumah mereka, termasuk membersihkan bangunan, mengeringkan wilayah yang terkena dampak, dan memperbaiki fasilitas yang rusak.
+            </ItemPharagraph>
+      <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
+      Selain itu, penting untuk melakukan evaluasi risiko untuk mencegah kejadian serupa di masa depan. Hal ini dapat mencakup peninjauan kembali infrastruktur dan kebijakan pengembangan wilayah. Selain itu, edukasi publik tentang pengurangan risiko bencana dan pentingnya persiapan sebelumnya juga sangat penting untuk mengurangi dampak bencana banjir bandang di masa depan.
+            </ItemPharagraph>
     </>
   )
 }

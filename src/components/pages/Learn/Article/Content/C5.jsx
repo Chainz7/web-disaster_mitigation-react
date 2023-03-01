@@ -39,7 +39,7 @@ function C5() {
       </ItemSubTitle>
       <ItemImageWrapper variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
         <ItemImageContainer>
-          <ItemImage src={img.learn1}/>
+          <ItemImage src="https://img.freepik.com/free-vector/flood-town-river-water-stream-city-street_107791-1035.jpg?t=st=1677674466~exp=1677675066~hmac=92fc8535c88e1bc0d2acf4bd87d49881c817b947fb79e6cdaca2ebfda7953ec3"/>
         </ItemImageContainer>
       </ItemImageWrapper>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>

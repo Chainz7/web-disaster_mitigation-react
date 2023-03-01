@@ -39,7 +39,7 @@ function C7() {
       </ItemSubTitle>
       <ItemImageWrapper variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
         <ItemImageContainer>
-          <ItemImage src={img.learn1}/>
+          <ItemImage src="https://img.freepik.com/free-vector/volcano-eruption-sky-with-clouds-scene-daytime_1308-50910.jpg?w=740&t=st=1677674667~exp=1677675267~hmac=4766ba29425fbd22d66548562cf11cfde317617acd57835644ea7833bf14d027"/>
         </ItemImageContainer>
       </ItemImageWrapper>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>

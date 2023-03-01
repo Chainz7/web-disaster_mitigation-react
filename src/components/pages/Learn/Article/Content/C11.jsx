@@ -39,7 +39,7 @@ function C11() {
       </ItemSubTitle>
       <ItemImageWrapper variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
         <ItemImageContainer>
-          <ItemImage src={img.learn1}/>
+          <ItemImage src="https://img.freepik.com/free-vector/tourists-travel-group-people-excursion_107791-14067.jpg?w=826&t=st=1677674938~exp=1677675538~hmac=4de7f253d93277594b8197bd3e70c544d1cea5f0c96997264463fc85e05d5fa7"/>
         </ItemImageContainer>
       </ItemImageWrapper>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>

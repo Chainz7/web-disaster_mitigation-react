@@ -39,7 +39,7 @@ function C12() {
       </ItemSubTitle>
       <ItemImageWrapper variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
         <ItemImageContainer>
-          <ItemImage src={img.learn1}/>
+          <ItemImage src="https://img.freepik.com/free-vector/flat-design-tree-planting-illustration_23-2149195039.jpg?w=740&t=st=1677675177~exp=1677675777~hmac=e4351ad9403fbe3f7bee94d5ad86f9736d40b236b4f0f9d1d2a1bf4d59b05b95"/>
         </ItemImageContainer>
       </ItemImageWrapper>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>

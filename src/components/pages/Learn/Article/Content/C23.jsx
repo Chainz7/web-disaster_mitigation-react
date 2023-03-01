@@ -38,7 +38,7 @@ function C23() {
       Mitigasi bencana merujuk pada upaya-upaya untuk mengurangi dampak yang dihasilkan dari bencana, baik secara proaktif maupun reaktif. Dampak mitigasi bencana sangatlah penting, karena upaya mitigasi dapat membantu mengurangi jumlah korban jiwa, kerusakan fisik dan psikologis, serta kerugian ekonomi yang diakibatkan oleh bencana.      </ItemSubTitle>
       <ItemImageWrapper variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
         <ItemImageContainer>
-          <ItemImage src={img.learn1}/>
+          <ItemImage src="https://img.freepik.com/free-vector/group-young-people-posing-photo_52683-18823.jpg?w=740&t=st=1677678101~exp=1677678701~hmac=93ae56b6c9ff791eb6604d16c16d72c09740b1e0818fe206af1ec9f65cafa317"/>
         </ItemImageContainer>
       </ItemImageWrapper>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>

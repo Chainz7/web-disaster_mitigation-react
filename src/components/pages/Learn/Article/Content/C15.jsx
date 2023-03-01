@@ -39,7 +39,7 @@ function C15() {
       </ItemSubTitle>
       <ItemImageWrapper variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
         <ItemImageContainer>
-          <ItemImage src={img.learn1}/>
+          <ItemImage src="https://img.freepik.com/free-vector/emergency-escape-cartoon-poster-with-rescue-workers-saving-man-from-water-vector-illustration_1284-77198.jpg?w=740&t=st=1677675547~exp=1677676147~hmac=2cbdbdd356e3bb8d88d60c278e652201dc4105ffa6d55d18199eaa2e9e698bd9"/>
         </ItemImageContainer>
       </ItemImageWrapper>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>

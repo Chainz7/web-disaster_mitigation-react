@@ -39,7 +39,7 @@ function C6() {
       </ItemSubTitle>
       <ItemImageWrapper variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
         <ItemImageContainer>
-          <ItemImage src={img.learn1}/>
+          <ItemImage src="https://img.freepik.com/free-vector/scene-with-mudslide-down-mountain_1308-42567.jpg?w=900&t=st=1677673965~exp=1677674565~hmac=d2c43c5e9fa148f7cb49e14bb61b22ae385ab023b4450b5ae1f0d295fd99b1ac"/>
         </ItemImageContainer>
       </ItemImageWrapper>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
