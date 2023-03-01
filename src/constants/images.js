@@ -18,10 +18,12 @@ import learnIcon9 from '../assets/pages/learnIcon9.png';
 import pengertian from '../assets/pages/pengertian.png';
 import manfaat from '../assets/pages/manfaat.png';
 import dampak from '../assets/pages/dampak.png';
+import map from '../assets/pages/map2.png';
+import coban from '../assets/pages/coban.jpg';
 import team from '../assets/navbar/team.png';
 import um from '../assets/navbar/um.png';
 
 export default {
  logo, background, learn1, learn2, learn3, learn4, learn5, learn6, learn7, learn8, learnIcon0, learnIcon1, learnIcon2, 
- learnIcon3, learnIcon4, learnIcon8, learnIcon9, pengertian, manfaat, dampak, team, um
+ learnIcon3, learnIcon4, learnIcon8, learnIcon9, pengertian, manfaat, dampak, map, coban, team, um
 };

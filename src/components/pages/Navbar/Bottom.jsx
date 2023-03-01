@@ -57,7 +57,7 @@ function Right() {
         </ItemContainer>
         <ItemContainer to="/peta" className='link'>
           <LogoContainer variant={isSmallScreen ? opacityIn : scaleIn} whileInView={isSmallScreen ? opacityIn.whileInView : scaleIn.whileInView} isSmallScreen={isSmallScreen}>
-            <lord-icon src="https://cdn.lordicon.com/oaflahpk.json" trigger="loop" delay="500" colors="primary:#66DAC1" style={{width:"100%", height:"100%", objectFit:"cover"}}>
+            <lord-icon src="https://cdn.lordicon.com/oaflahpk.json" trigger="loop" delay="500" colors="primary:#66DAC1" state="loop-spin" style={{width:"100%", height:"100%", objectFit:"cover"}}>
             </lord-icon>
           </LogoContainer>
           <ItemTitle variant={isSmallScreen ? opacityIn : scaleIn} whileInView={isSmallScreen ? opacityIn.whileInView : scaleIn.whileInView} isSmallScreen={isSmallScreen}>Peta</ItemTitle>
