@@ -49,20 +49,20 @@ function Top() {
       backgroundColor: isFixed? 'white' : '',
     }}>
       <Wrapper>
-        <Link to="/pelajari/artikel-8" className='link'>
+        <Link to="/pelajari/artikel-10" className='link'>
           <ItemContainer variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
             <ImageContainer variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-              <Image src={img.learnIcon11} />
+              <Image src={img.learnIcon8} />
             </ImageContainer>
             <ItemTitle className='title-hover' variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
               Masyarakat Desa
             </ItemTitle>
           </ItemContainer>
         </Link>
-        <Link to="/pelajari/artikel-9" className='link'>
+        <Link to="/pelajari/artikel-11" className='link'>
           <ItemContainer variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
             <ImageContainer variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-              <Image src={img.learnIcon10} />
+              <Image src={img.learnIcon9} />
             </ImageContainer>
             <ItemTitle className='title-hover' variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
               Pengunjung
@@ -86,9 +86,9 @@ const Container = styled.div`
 const Wrapper = styled.div`
   width: 1200px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
-  gap: 1rem;
+  gap: 2rem;
   @media (max-width: 1250px) {
     width: 100%;
     margin-left: 2%;

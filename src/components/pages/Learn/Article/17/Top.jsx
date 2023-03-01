@@ -96,9 +96,9 @@ const Container = styled.div`
 const Wrapper = styled.div`
   width: 1200px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
-  gap: 1rem;
+  gap: 2rem;
   @media (max-width: 1250px) {
     width: 100%;
     margin-left: 2%;

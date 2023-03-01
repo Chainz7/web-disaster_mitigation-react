@@ -52,30 +52,30 @@ function Top() {
         <Link to="/pelajari/artikel-21" className='link'>
           <ItemContainer variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
             <ImageContainer variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-              <Image src={img.learnIcon1} />
+              <Image src={img.pengertian} />
             </ImageContainer>
             <ItemTitle className='title-hover' variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-              Banjir Bandang
+              Pengertian
             </ItemTitle>
           </ItemContainer>
         </Link>
         <Link to="/pelajari/artikel-22" className='link'>
           <ItemContainer variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
             <ImageContainer variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-              <Image src={img.learnIcon2} />
+              <Image src={img.manfaat} />
             </ImageContainer>
             <ItemTitle className='title-hover' variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-              Tanah Longsor
+              Manfaat
             </ItemTitle>
           </ItemContainer>
         </Link>
         <Link to="/pelajari/artikel-23" className='link'>
           <ItemContainer variant={opacityIn} whileInView={opacityIn.whileInView} whileHover={{ scale: 1.1 }} transition={{ duration: .4 }}>
             <ImageContainer variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-              <Image src={img.learnIcon3} />
+              <Image src={img.dampak} />
             </ImageContainer>
             <ItemTitle className='title-hover' variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-              Gunung Meletus
+              Dampak
             </ItemTitle>
           </ItemContainer>
         </Link>
@@ -96,9 +96,9 @@ const Container = styled.div`
 const Wrapper = styled.div`
   width: 1200px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
-  gap: 1rem;
+  gap: 2rem;
   @media (max-width: 1250px) {
     width: 100%;
     margin-left: 2%;
