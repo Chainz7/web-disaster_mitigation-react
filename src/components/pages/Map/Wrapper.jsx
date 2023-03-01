@@ -24,5 +24,11 @@ const Wrap = styled.div`
   height: 100%;
   display: flex;
   justify-content: center;
+  @media (max-width: 818px) {
+    width: 100%;
+    flex-direction: column-reverse;
+    gap: 1rem;
+    padding: 1rem;
+  }
 `
 export default Wrapper

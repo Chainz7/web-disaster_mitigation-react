@@ -8,7 +8,8 @@ export const mapsTitle = "#2c2b2d"
 export const mapsSubTitle = "#B0AFB2"
 export const mapsThird = "#323232"
 export const mapsFour = "#4a4a4a"
+export const mapsBorder = "#c9c9c9"
 
 export default {
-  primary, secondary, tertiary, quartery, articleBottom, secondaryTransparent, mapsTitle, mapsSubTitle, mapsThird, mapsFour
+  primary, secondary, tertiary, quartery, articleBottom, secondaryTransparent, mapsTitle, mapsSubTitle, mapsThird, mapsFour, mapsBorder
 };
