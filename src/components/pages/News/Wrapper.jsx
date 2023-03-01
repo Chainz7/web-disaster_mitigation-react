@@ -45,7 +45,7 @@ const Wrap = styled.div`
     display: grid;
     justify-items: center;
     align-items: flex-start;
-    gap: 5rem;
+    gap: 0;
   }
 `
 export default Wrapper
