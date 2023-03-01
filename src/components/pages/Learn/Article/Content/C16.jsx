@@ -39,7 +39,7 @@ function C16() {
       </ItemSubTitle>
       <ItemImageWrapper variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
         <ItemImageContainer>
-          <ItemImage src={img.learn1}/>
+          <ItemImage src="https://img.freepik.com/free-vector/urgency-rescuer-help-ambulance-lifeguard-uniform-assisting-first-aid-injured-person-finding-people-operation-isolated-flat-vector-illustration_613284-1420.jpg?w=740&t=st=1677675662~exp=1677676262~hmac=0844fc83c5d9df96974a2358e0d206a0c611570e48bbc5ed45babb5a70394b85"/>
         </ItemImageContainer>
       </ItemImageWrapper>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>

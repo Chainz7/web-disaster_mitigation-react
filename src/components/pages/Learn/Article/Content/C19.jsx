@@ -29,25 +29,31 @@ function C19() {
   return (
     <>
       <ItemMiniTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Bencana
+        Setelah Bencana Terjadi
       </ItemMiniTitle>
       <ItemTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Banjir Bandang
+        Tanah Longsor
       </ItemTitle>
       <ItemSubTitle variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ut doloremque odio architecto hic perferendis! Doloribus, sed laudantium. Enim nemo odit, temporibus non labore consectetur laudantium reprehenderit molestiae aut eum.
+      Setelah bencana tanah longsor terjadi, langkah pertama yang harus dilakukan adalah memastikan keselamatan warga yang terdampak. Hal ini dapat dilakukan dengan evakuasi warga ke tempat yang lebih aman, seperti pusat evakuasi atau rumah-rumah keluarga atau kerabat terdekat yang berada di lokasi yang lebih tinggi.
       </ItemSubTitle>
       <ItemImageWrapper variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
         <ItemImageContainer>
-          <ItemImage src={img.learn1}/>
+          <ItemImage src="https://img.freepik.com/free-vector/household-renovation-professions-illustration_23-2148676924.jpg?t=st=1677676819~exp=1677677419~hmac=2c175ab996d02c4bdec2c0d1b14371490a6378b048fab6315b6605a4dcb4f2b7"/>
         </ItemImageContainer>
       </ItemImageWrapper>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo minima suscipit possimus rem ipsum eaque laborum labore eligendi inventore amet quibusdam molestiae omnis aliquid, deserunt dignissimos quas ex esse dolorem hic beatae adipisci qui incidunt. Sequi adipisci facilis nesciunt dignissimos dolorem quasi suscipit consequatur accusamus veritatis soluta laudantium quos beatae, eius aliquid aliquam, quisquam autem maxime, nemo provident cum. Possimus dolore fuga quaerat molestias incidunt eligendi vero excepturi facilis velit quasi quos est alias iusto, sapiente ipsa enim eos quo magni inventore amet rem iste perferendis dolor. Nulla a quae, vel deserunt, esse quaerat dolorum voluptas nemo aperiam autem iusto?
-      </ItemPharagraph>
+      Selanjutnya, perlu dilakukan pemantauan dan evaluasi terhadap kondisi lingkungan sekitar, termasuk kemungkinan terjadinya longsor susulan dan dampak lain yang dapat terjadi seperti banjir atau kerusakan jalan. Jika diperlukan, dapat dilakukan tindakan pencegahan seperti pembuatan tanggul atau pengalihan aliran sungai.
+            </ItemPharagraph>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo minima suscipit possimus rem ipsum eaque laborum labore eligendi inventore amet quibusdam molestiae omnis aliquid, deserunt dignissimos quas ex esse dolorem hic beatae adipisci qui incidunt. Sequi adipisci facilis nesciunt dignissimos dolorem quasi suscipit consequatur accusamus veritatis soluta laudantium quos beatae, eius aliquid aliquam, quisquam autem maxime, nemo provident cum. Possimus dolore fuga quaerat molestias incidunt eligendi vero excepturi facilis velit quasi quos est alias iusto, sapiente ipsa enim eos quo magni inventore amet rem iste perferendis dolor. Nulla a quae, vel deserunt, esse quaerat dolorum voluptas nemo aperiam autem iusto?
-      </ItemPharagraph>
+      Setelah situasi stabil, dapat dilakukan pendistribusian bantuan dan perlengkapan yang dibutuhkan oleh warga terdampak seperti makanan, air bersih, pakaian, dan obat-obatan. Bantuan dapat didistribusikan melalui lembaga pemerintah, organisasi masyarakat, atau relawan
+            </ItemPharagraph>
+      <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
+      Selain itu, perlu dilakukan tindakan rehabilitasi dan rekonstruksi untuk memulihkan kondisi lingkungan dan infrastruktur yang rusak akibat bencana. Hal ini dapat dilakukan melalui perbaikan jalan, perbaikan bangunan yang rusak, dan penanaman kembali vegetasi di daerah-daerah yang rawan longsor.
+            </ItemPharagraph>
+      <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
+      Langkah-langkah tersebut di atas dapat dilakukan dengan koordinasi yang baik antara pihak-pihak terkait, termasuk pemerintah, lembaga swadaya masyarakat, dan relawan.
+            </ItemPharagraph>
     </>
   )
 }

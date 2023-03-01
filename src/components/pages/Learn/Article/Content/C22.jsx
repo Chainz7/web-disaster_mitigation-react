@@ -38,7 +38,7 @@ function C22() {
       Mitigasi bencana merupakan upaya untuk mengurangi dampak buruk dari bencana alam atau buatan manusia. Manfaat dari mitigasi bencana sangat penting untuk meningkatkan kesiapsiagaan dan mengurangi kerugian akibat bencana. Berikut adalah beberapa manfaat dari mitigasi bencana      </ItemSubTitle>
       <ItemImageWrapper variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
         <ItemImageContainer>
-          <ItemImage src={img.learn1}/>
+          <ItemImage src="https://img.freepik.com/free-vector/home-car-travel-health-insurance-flat-family-with-safety-shield-happy-parents-with-children-protection-property-life-characters-coverage-accident-assurance-plan-concept_88138-652.jpg?w=740&t=st=1677678227~exp=1677678827~hmac=121ba0ec96e61de3bb05e5afdf72af8ad9e5f6e1f01509279b098eb630fff610"/>
         </ItemImageContainer>
       </ItemImageWrapper>
       <ItemPharagraph variant={isSmallScreen ? opacityIn : bottomIn} whileInView={isSmallScreen ? opacityIn.whileInView : bottomIn.whileInView} isSmallScreen={isSmallScreen}>
